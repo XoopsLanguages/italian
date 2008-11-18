@@ -1,1 +1,0 @@
-prebacen je alsys bosanski languge  iz libs u libs/altsys/laguge/bosanski

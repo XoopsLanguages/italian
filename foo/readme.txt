@@ -1,1 +1,0 @@
-The placeholder for xoops language
