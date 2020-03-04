@@ -1,0 +1,91 @@
+<?php
+/**
+ * Module: Publisher
+ * Author: The SmartFactory <www.smartfactory.ca>
+ * Licence: GNU
+ */
+define('_MD_PUBLISHER_ADD_FILE_INTRO', "Si prega di compilare questo modulo per allegare un file a questo articolo: '%s'.");
+define('_MD_PUBLISHER_ADD_FILE_TITLE', 'Aggiungi un file ad un articolo');
+define('_MD_PUBLISHER_ADMIN_PAGE', ':: Sezione Amministrativa ::');
+define('_MD_PUBLISHER_MODIFY', 'Modifica');
+define('_MD_PUBLISHER_CANCEL', 'Cancella');
+define('_MD_PUBLISHER_CATEGORY_EDIT', 'Modifica Categoria');
+define('_MD_PUBLISHER_CATEGORY_SUMMARY', 'Sommario di %s');
+define('_MD_PUBLISHER_CATEGORY_SUMMARY_INFO', 'Sottocategorie in %s.');
+define('_MD_PUBLISHER_CLEAR', 'Pulisci');
+define('_MD_PUBLISHER_COMMENTS', 'Commento(i)');
+//define('_MD_PUBLISHER_CREATE','Create article');
+define('_MD_PUBLISHER_DATE', 'Data');
+define('_MD_PUBLISHER_DATESUB', 'Pubblicato su');
+define('_MD_PUBLISHER_DESCRIPTION', 'Descrizione');
+define('_MD_PUBLISHER_DOWNLOAD_FILE', 'Scarica questo file');
+define('_MD_PUBLISHER_EDIT_ARTICLE', 'Modifica un articolo');
+define('_MD_PUBLISHER_EMPTY', 'Questa categoria al momento non ha articoli o sottocategorie');
+define('_MD_PUBLISHER_GOODDAY', 'Ciao <strong>%s</strong>! ');
+define('_MD_PUBLISHER_HITS', 'Click');
+define('_MD_PUBLISHER_HITSDETAIL', 'Questo Articolo è stato letto');
+define('_MD_PUBLISHER_HOME', 'Home');
+define('_MD_PUBLISHER_INDEX_CATEGORIES_SUMMARY', 'Riepilogo Categorie');
+define('_MD_PUBLISHER_INDEX_CATEGORIES_SUMMARY_INFO', 'Ecco un elenco delle principali categorie e delle loro sottocategorie. Seleziona una categoria per vedere gli articoli all\'interno.');
+define('_MD_PUBLISHER_INDEX_ITEMS', 'Ultimi Articoli pubblicati');
+define('_MD_PUBLISHER_INDEX_ITEMS_INFO', 'Ecco un elenco degli ultimi articoli pubblicati.');
+define('_MD_PUBLISHER_ITEM', 'articolo');
+define('_MD_PUBLISHER_ITEM_RECEIVED_AND_PUBLISHED', 'Il tuo articolo è stato inviato e pubblicato automaticamente. Grazie per il tuo contributo!');
+define('_MD_PUBLISHER_ITEM_RECEIVED_NEED_APPROVAL', 'Il tuo articolo è stato inviato e verrà pubblicato previa approvazione di un moderatore. <br> Grazie per il tuo contributo!');
+define('_MD_PUBLISHER_ITEMMODIFIED', 'L\'articolo è stato correttamente modificato!');
+define('_MD_PUBLISHER_ITEMS', 'Articoli');
+define('_MD_PUBLISHER_ITEMS_INFO', 'Ecco gli articoli in questa categoria.');
+define('_MD_PUBLISHER_ITEMS_LINKS', 'Naviga attraverso gli Articoli');
+define('_MD_PUBLISHER_ITEMS_TITLE', 'Articoli in %s');
+define('_MD_PUBLISHER_LAST_SMARTITEM', 'Ultimo Articolo pubblicato');
+define('_MD_PUBLISHER_NAME', 'Nome');
+define('_MD_PUBLISHER_NEED_CATEGORY_ITEM', 'Per creare un articolo, è necessario disporre dell\'autorizzazione appropriata in almeno una categoria.');
+define('_MD_PUBLISHER_NEXT_ITEM', 'Prossimo Articolo');
+define('_MD_PUBLISHER_NO', 'No');
+define('_MD_PUBLISHER_NO_CAT_EXISTS', 'Spiacenti, non ci sono ancora Categorie definite.<br>Si prega di contattare l\'amministratore del sito ed avvisarlo di questo.');
+define('_MD_PUBLISHER_NO_CAT_PERMISSIONS', "Spiacenti, non hai autorizzazioni sufficienti per accedere a quest\'area.");
+define('_MD_PUBLISHER_NO_TOP_PERMISSIONS', 'Spiacenti, non ci sono Articoli da mostrare.');
+define('_MD_PUBLISHER_NOCATEGORYSELECTED', 'Non hai selezionato una Categoria valida!');
+define('_MD_PUBLISHER_NOITEMSELECTED', 'Non hai selezionato un Articolo valido!');
+define('_MD_PUBLISHER_ON', 'attivo');
+define('_MD_PUBLISHER_OTHER_ITEMS', 'Altri Articoli in questa categoria');
+define('_MD_PUBLISHER_PAGE', 'Pagina');
+//define('_MD_PUBLISHER_PREVIEW','Preview');
+define('_MD_PUBLISHER_PREVIOUS_ITEM', 'Articolo precedente');
+define('_MD_PUBLISHER_PRINTERFRIENDLY', 'Stampa questo articolo in un formato adatto alla stampante');
+define('_MD_PUBLISHER_READS', 'letture');
+define('_MD_PUBLISHER_RSSFEED', 'RSS Feed');
+define('_MD_PUBLISHER_SENDSTORY', 'Invia questo Articolo ad un amico');
+define('_MD_PUBLISHER_SUB_CLONE', 'Duplica un articolo');
+define('_MD_PUBLISHER_SUB_SMNAME', 'Invia un Articolo');
+define('_MD_PUBLISHER_SUB_SNEWNAME', 'Invia un Articolo');
+define('_MD_PUBLISHER_SUBMIT', 'Invia un Articolo');
+define('_MD_PUBLISHER_SUBMIT_ERROR', 'Si è verificato un errore. Il tuo articolo non è stato inviato.');
+define('_MD_PUBLISHER_TOTAL_SMARTITEMS', 'Articoli totali');
+define('_MD_PUBLISHER_UPLOAD', 'Caricamento');
+//define('_MD_PUBLISHER_UPLOAD_FILE','Upload a file');
+define('_MD_PUBLISHER_VIEW_MORE', 'Leggi l\'articolo completo');
+define('_MD_PUBLISHER_WHO_WHEN', 'Pubblicato da %s su %s');
+define('_MD_PUBLISHER_PRINT_CLOSE', 'Chiudi questa pagina');
+//added in publisher
+define('_MD_PUBLISHER_VOTE_BAD', 'Brutto voto, riprova!');
+define('_MD_PUBLISHER_VOTE_ALREADY', 'Spiacente, hai già votato questo articolo!');
+define('_MD_PUBLISHER_VOTE_THANKS', 'Grazie per il tuo voto!');
+define('_MD_PUBLISHER_VOTE_VOTE', 'voto');
+define('_MD_PUBLISHER_VOTE_VOTES', 'votei');
+define('_MD_PUBLISHER_VOTE_RATING', 'Valutazione');
+define('_MD_PUBLISHER_VOTE_DISABLE', 'I voti sono disabilitati!');
+define('_MD_PUBLISHER_VOTE_OUTOF', 'di');
+define('_MD_PUBLISHER_ITEMS_SAME_AUTHOR', 'Articoli dello stesso Autore');
+define('_MD_PUBLISHER_TOTAL_ITEMS', 'Articoli totali: ');
+define('_MD_PUBLISHER_TOTAL_HITS', 'Click totali: ');
+define('_MD_PUBLISHER_NO_AUTHOR_ITEMS', 'Non ci sono Articoli di questo Autore');
+define('_MD_PUBLISHER_ARCHIVES', 'Archivi Articoli');
+define('_MD_PUBLISHER_ACTIONS', 'Azioni');
+define('_MD_PUBLISHER_PREVIOUSIMG', 'Immagine precedente');
+define('_MD_PUBLISHER_NEXTIMG', 'Prossima immagine');
+define('_MD_PUBLISHER_CLOSE', 'Chiudi');
+define('_MD_PUBLISHER_ENLARGEIMG', 'Ingrandisci');
+define('_MD_PUBLISHER_OF', ' di ');
+//1.04
+define('_MD_PUBLISHER_ERROR_NO_PDF', 'TCPDF per XOOPS non è installato in /class/libraries/vendor/tecnickcom/tcpdf/ <br> Leggere /docs/readme.txt o fare clic sulla scheda Guida per sapere come recuperarlo!');
