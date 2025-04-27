@@ -5,20 +5,20 @@
  */
 define(
     '_XMF_STOPWORDS',
-    "i me my myself we our ours ourselves you your yours yourself "
-    . "yourselves he him his himself she her hers herself it its "
-    . "itself they them their theirs themselves what which who whom "
-    . "this that these those am is are was were be been being have has "
-    . "had having do does did doing would should could ought i'm "
-    . "you're he's she's it's we're they're i've you've we've they've "
-    . "i'd you'd he'd she'd we'd they'd i'll you'll he'll she'll we'll "
-    . "they'll isn't aren't wasn't weren't hasn't haven't hadn't "
-    . "doesn't don't didn't won't wouldn't shan't shouldn't can't "
-    . "cannot couldn't mustn't let's that's who's what's here's "
-    . "there's when's where's why's how's a an the and but if or "
-    . "because as until while of at by for with about against between "
-    . "into through during before after above below to from up down in "
-    . "out on off over under again further then once here there when "
-    . "where why how all any both each few more most other some such "
-    . "no nor not only own same so than too very",
+    "io me mio mio stesso noi nostro nostri noi stessi tu tuo tuoi te stesso "
+    . "voi stessi lui lui suo sé stesso lei lei sua sé stessa esso esso suo "
+    . "se stesso loro loro loro loro stessi cosa quale chi chiunque "
+    . "questo quello questi quelli sono è sono era ero essere stato "
+    . "essere avuto ha avuto avere ha avuto fare fa fatto fare farebbe dovrebbe "
+    . "potrebbe dovrebbe dovrei sono non sono non ero non erano non ha non "
+    . "ha non aveva non fa non fa non ha fatto non farebbe non dovrebbe non potrebbe "
+    . "non deve non lo farà non lo farà non lo farei non lo faresti "
+    . "loro non è non sono non era non erano non ha non ha non aveva "
+    . "non fa non fa non è non ce l'ho questo quello che c'è quando "
+    . "dove perché come un uno il e ma se o "
+    . "perché come fino a mentre di a per con su contro tra "
+    . "in attraverso durante prima dopo sopra sotto a da su giù in "
+    . "fuori su fuori sopra sotto ancora più poi una volta qui lì quando "
+    . "dove perché come tutti nessuno entrambi ciascuno pochi più la maggior parte altro alcuni tali "
+    . "no né non solo proprio stesso così che troppo molto",
 );

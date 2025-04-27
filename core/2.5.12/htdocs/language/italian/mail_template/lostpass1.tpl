@@ -1,13 +1,13 @@
-Hello {X_UNAME},
+Ciao {X_UNAME},
 
-A web user from {IP} has just requested a new password for your profile at {SITENAME}.
-You can get your new password by clicking on the link below:
+Un utente web da {IP} ha appena richiesto una nuova password per il tuo profilo su {SITENAME}.
+Puoi ottenere la tua nuova password cliccando sul link sottostante:
 
 {NEWPWD_LINK}
 
-If you didn't ask for this, don't worry. Just delete this Email.
+Se non hai richiesto questo, non preoccuparti. Basta eliminare questa email.
 
 -----------
-{SITENAME} ({SITEURL}) 
+{SITENAME} ({SITEURL})
 webmaster
 {ADMINMAIL}

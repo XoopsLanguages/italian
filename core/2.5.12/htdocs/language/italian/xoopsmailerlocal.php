@@ -18,29 +18,29 @@
  * @since               2.3.0
  * @author              Taiwen Jiang <phppp@users.sourceforge.net>
  */
-defined('XOOPS_ROOT_PATH') || exit('Restricted access');
+defined('XOOPS_ROOT_PATH') || exit('Accesso limitato');
 /**
- * Localize the mail functions
+ * Localizza le funzioni di posta
  *
- * The English localization is solely for demonstration
+ * La localizzazione inglese è solo a scopo dimostrativo
  */
-// Do not change the class name
+// Non cambiare il nome della classe
 class XoopsMailerLocal extends XoopsMailer
 {
     /**
-     * Constructor
+     * Costruttore
      */
     public function __construct()
     {
         parent::__construct();
-        // It is supposed no need to change the charset
+        // Si suppone che non sia necessario cambiare il charset
         $this->charSet = strtolower(_CHARSET);
-        // You MUST specify the language code value so that the file exists: XOOPS_ROOT_PAT/class/mail/phpmailer/language/lang-["your-language-code"].php
-        $this->multimailer->setLanguage('en');
+        // DEVI specificare il valore del codice lingua in modo che il file esista: XOOPS_ROOT_PAT/class/mail/phpmailer/language/lang-["il-tuo-codice-lingua"].php
+        $this->multimailer->setLanguage('it');
     }
 
     /**
-     * Multibyte languages are encouraged to make their proper method for encoding FromName
+     * Le lingue multibyte sono incoraggiate a creare il loro metodo appropriato per la codifica di FromName
      *
      * @param $text
      *
@@ -48,14 +48,14 @@ class XoopsMailerLocal extends XoopsMailer
      */
     public function encodeFromName($text)
     {
-        // Activate the following line if needed
+        // Attiva la seguente riga se necessario
         // $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
         return $text;
     }
 
 
     /**
-     * Multibyte languages are encouraged to make their proper method for encoding Subject
+     * Le lingue multibyte sono incoraggiate a creare il loro metodo appropriato per la codifica del Subject
      *
      * @param $text
      *
@@ -63,7 +63,7 @@ class XoopsMailerLocal extends XoopsMailer
      */
     public function encodeSubject($text)
     {
-        // Activate the following line if needed
+        // Attiva la seguente riga se necessario
         // $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
         return $text;
     }

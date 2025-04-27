@@ -3,22 +3,22 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('LEGEND_XOOPS_PATHS', 'XOOPS Physical paths');
-define('LEGEND_DATABASE', 'Database Character Set');
+define('LEGEND_XOOPS_PATHS', 'Percorsi fisici di XOOPS');
+define('LEGEND_DATABASE', 'Set di caratteri del database');
 
-define('XOOPS_LIB_PATH_LABEL', 'XOOPS library directory');
-define('XOOPS_LIB_PATH_HELP', 'Physical path to the XOOPS library directory WITHOUT trailing slash, for forward compatibility. Locate the folder out of ' . XOOPS_ROOT_PATH . ' to make it secure.');
-define('XOOPS_DATA_PATH_LABEL', 'XOOPS datafiles directory');
-define('XOOPS_DATA_PATH_HELP', 'Physical path to the XOOPS datafiles (writable) directory WITHOUT trailing slash, for forward compatibility. Locate the folder out of ' . XOOPS_ROOT_PATH . ' to make it secure.');
+define('XOOPS_LIB_PATH_LABEL', 'Directory della libreria XOOPS');
+define('XOOPS_LIB_PATH_HELP', 'Percorso fisico alla directory della libreria XOOPS SENZA barra finale, per compatibilità futura. Colloca la cartella al di fuori di ' . XOOPS_ROOT_PATH . ' per renderla sicura.');
+define('XOOPS_DATA_PATH_LABEL', 'Directory dei file di dati di XOOPS');
+define('XOOPS_DATA_PATH_HELP', 'Percorso fisico alla directory dei file di dati (scrivibile) di XOOPS SENZA barra finale, per compatibilità futura. Colloca la cartella al di fuori di ' . XOOPS_ROOT_PATH . ' per renderla sicura.');
 
-define('DB_COLLATION_LABEL', 'Database character set and collation');
-define('DB_COLLATION_HELP', "As of 4.12 MySQL supports custom character set and collation. However it is more complex than expected, so DON'T make any change unless you are confident with your choice.");
-define('DB_COLLATION_NOCHANGE', 'Do not change');
+define('DB_COLLATION_LABEL', 'Set di caratteri e collation del database');
+define('DB_COLLATION_HELP', "A partire da MySQL 4.12 supporta set di caratteri e collation personalizzati. Tuttavia è più complesso del previsto, quindi NON apportare alcuna modifica a meno che tu non sia sicuro della tua scelta.");
+define('DB_COLLATION_NOCHANGE', 'Non cambiare');
 
-define('XOOPS_PATH_FOUND', 'Path found.');
-define('ERR_COULD_NOT_ACCESS', 'Could not access the specified folder. Please verify that it exists and is readable by the server.');
-define('CHECKING_PERMISSIONS', 'Checking file and directory permissions...');
-define('ERR_NEED_WRITE_ACCESS', 'The server must be given write access to the following files and folder<br>(i.e. <em>chmod 777 directory_name</em> on a UNIX/LINUX server)');
-define('IS_NOT_WRITABLE', '%s is NOT writable.');
-define('IS_WRITABLE', '%s is writable.');
-define('ERR_COULD_NOT_WRITE_MAINFILE', 'Error writing content to mainfile.php, write the content into mainfile.php manually.');
+define('XOOPS_PATH_FOUND', 'Percorso trovato.');
+define('ERR_COULD_NOT_ACCESS', 'Impossibile accedere alla cartella specificata. Verifica che esista e che sia leggibile dal server.');
+define('CHECKING_PERMISSIONS', 'Verifica delle autorizzazioni di file e directory...');
+define('ERR_NEED_WRITE_ACCESS', 'Al server deve essere concesso l\'accesso in scrittura ai seguenti file e cartelle<br>(es. <em>chmod 777 nome_directory</em> su un server UNIX/LINUX)');
+define('IS_NOT_WRITABLE', '%s NON è scrivibile.');
+define('IS_WRITABLE', '%s è scrivibile.');
+define('ERR_COULD_NOT_WRITE_MAINFILE', 'Errore durante la scrittura del contenuto in mainfile.php, scrivi manualmente il contenuto in mainfile.php.');

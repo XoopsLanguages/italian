@@ -4,9 +4,9 @@
 // Translator: XOOPS Translation Team
 
 define('_CONFIRM_UPGRADE_220', "
-The upgrade scripts will migrate data from existent 'profile' module.<br>
-Please don't uninstall the existent 'profile' module manually, otherwise corresponding data won't be migrated.<br><br>
-Once the upgrade process is fully completed please <strong>go to module administration area to update 'profile' module</strong>. Once this is done, profile data will be migrated completely.<br><br>
-To cancel the upgrade, <a href='index.php'>click here</a>.<br><br>
-Or to <a style='color:green; font-size:1.3em;' href='index.php?action=next&upd220=ok'>proceed</a>.
+Gli script di aggiornamento migreranno i dati dal modulo 'profile' esistente.<br>
+Si prega di non disinstallare manualmente il modulo 'profile' esistente, altrimenti i dati corrispondenti non verranno migrati.<br><br>
+Una volta completato il processo di aggiornamento, si prega di <strong>andare all'area di amministrazione dei moduli per aggiornare il modulo 'profile'</strong>. Una volta fatto ciò, i dati del profilo verranno migrati completamente.<br><br>
+Per annullare l'aggiornamento, <a href='index.php'>clicca qui</a>.<br><br>
+Oppure per <a style='color:green; font-size:1.3em;' href='index.php?action=next&upd220=ok'>procedere</a>.
 ");

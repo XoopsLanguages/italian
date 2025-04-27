@@ -4,20 +4,20 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('_AD_NORIGHT', 'You don\'t have the permission to access this area');
-define('_AD_ACTION', 'Action');
-define('_AD_EDIT', 'Edit');
-define('_AD_DELETE', 'Delete');
-define('_AD_LASTTENUSERS', 'Last 10 registered users');
-define('_AD_NICKNAME', 'Username');
+define('_AD_NORIGHT', 'Non hai il permesso di accedere a quest\'area');
+define('_AD_ACTION', 'Azione');
+define('_AD_EDIT', 'Modifica');
+define('_AD_DELETE', 'Elimina');
+define('_AD_LASTTENUSERS', 'Ultimi 10 utenti registrati');
+define('_AD_NICKNAME', 'Nome utente');
 define('_AD_EMAIL', 'Email');
 define('_AD_AVATAR', 'Avatar');
-define('_AD_REGISTERED', 'Registered'); //Registered Date
-// define('_AD_PRESSGEN','This is your first time to enter the administration section. Press the button below to proceed.');
-define('_AD_LOGINADMIN', 'Logging you in..');
-define('_AD_WARNINGINSTALL', 'WARNING: Directory %s exists on your server. <br>Please remove this directory for security reasons.');
-define('_AD_WARNINGWRITEABLE', 'WARNING: File %s is writeable by the server. <br>Please change the permission of this file for security reasons.<br> in Unix (444), in Win32 (read-only)');
-define('_AD_WARNINGNOTWRITEABLE', 'WARNING: Folder %s is not writeable by the server. <br>Please change the permission of this folder.<br> in Unix (777), in Win32 (writable)');
-define('_AD_WARNINGXOOPSLIBINSIDE', 'WARNING: Folder %s is inside DocumentRoot! <br>For security considerations it is highly suggested to move it out of DocumentRoot.');
-define('_AD_WARNING_OLD_PHP', 'WARNING: Consider upgrading to a newer version of PHP. Version %s or newer is recommended and will be required in future XOOPS versions.');
-define('_AD_WARNING_NO_XML', 'The PHP XML Extension is required for this function.');
+define('_AD_REGISTERED', 'Registrato'); //Data di registrazione
+// define('_AD_PRESSGEN','Questa è la tua prima volta che accedi alla sezione di amministrazione. Premi il pulsante sottostante per procedere.');
+define('_AD_LOGINADMIN', 'Ti sto autenticando...');
+define('_AD_WARNINGINSTALL', 'ATTENZIONE: La directory %s esiste sul tuo server. <br>Rimuovi questa directory per ragioni di sicurezza.');
+define('_AD_WARNINGWRITEABLE', 'ATTENZIONE: Il file %s è scrivibile dal server. <br>Cambia i permessi di questo file per ragioni di sicurezza.<br> in Unix (444), in Win32 (sola lettura)');
+define('_AD_WARNINGNOTWRITEABLE', 'ATTENZIONE: La cartella %s non è scrivibile dal server. <br>Cambia i permessi di questa cartella.<br> in Unix (777), in Win32 (scrivibile)');
+define('_AD_WARNINGXOOPSLIBINSIDE', 'ATTENZIONE: La cartella %s si trova all\'interno di DocumentRoot! <br>Per considerazioni di sicurezza è altamente suggerito di spostarla fuori da DocumentRoot.');
+define('_AD_WARNING_OLD_PHP', 'ATTENZIONE: Considera l\'aggiornamento a una versione più recente di PHP. La versione %s o successiva è raccomandata e sarà richiesta nelle future versioni di XOOPS.');
+define('_AD_WARNING_NO_XML', 'L\'estensione PHP XML è richiesta per questa funzione.');

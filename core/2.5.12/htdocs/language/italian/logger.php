@@ -25,31 +25,31 @@ defined('XOOPS_ROOT_PATH') || exit('Restricted access');
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 define('_LOGGER_DEBUG', 'Debug');
-define('_LOGGER_INCLUDED_FILES', 'Included files');
-define('_LOGGER_FILES', '%s files');
-define('_LOGGER_MEM_USAGE', 'Memory usage');
-define('_LOGGER_MEM_ESTIMATED', '%s [Estimated]');
-define('_LOGGER_NONE', 'None');
-define('_LOGGER_ALL', 'All');
-define('_LOGGER_ERRORS', 'Errors');
-define('_LOGGER_DEPRECATED', 'Deprecated');
-define('_LOGGER_QUERIES', 'Queries');
-define('_LOGGER_BLOCKS', 'Blocks');
+define('_LOGGER_INCLUDED_FILES', 'File inclusi');
+define('_LOGGER_FILES', '%s file');
+define('_LOGGER_MEM_USAGE', 'Utilizzo memoria');
+define('_LOGGER_MEM_ESTIMATED', '%s [Stimato]');
+define('_LOGGER_NONE', 'Nessuno');
+define('_LOGGER_ALL', 'Tutti');
+define('_LOGGER_ERRORS', 'Errori');
+define('_LOGGER_DEPRECATED', 'Deprecato');
+define('_LOGGER_QUERIES', 'Query');
+define('_LOGGER_BLOCKS', 'Blocchi');
 define('_LOGGER_EXTRA', 'Extra');
-define('_LOGGER_TIMERS', 'Timers');
+define('_LOGGER_TIMERS', 'Timer');
 
-define('_LOGGER_TIMETOLOAD', '%s took %s seconds to load.');
+define('_LOGGER_TIMETOLOAD', '%s ha impiegato %s secondi per caricarsi.');
 
-define('_LOGGER_TOTAL', 'Total');
+define('_LOGGER_TOTAL', 'Totale');
 
-define('_LOGGER_NOT_CACHED', 'Not cached');
-define('_LOGGER_CACHED', 'Cached (regenerates every %s seconds)');
+define('_LOGGER_NOT_CACHED', 'Non in cache');
+define('_LOGGER_CACHED', 'In cache (rigenera ogni %s secondi)');
 
-define('_LOGGER_UNKNOWN', 'Unknown');
-define('_LOGGER_E_USER_NOTICE', 'Notice');
-define('_LOGGER_E_USER_WARNING', 'Warning');
-define('_LOGGER_E_USER_ERROR', 'Error');
-define('_LOGGER_E_NOTICE', 'Notice');
-define('_LOGGER_E_WARNING', 'Warning');
-define('_LOGGER_E_STRICT', 'Strict');
-define('_LOGGER_FILELINE', '%s in file %s line %s');
+define('_LOGGER_UNKNOWN', 'Sconosciuto');
+define('_LOGGER_E_USER_NOTICE', 'Avviso');
+define('_LOGGER_E_USER_WARNING', 'Attenzione');
+define('_LOGGER_E_USER_ERROR', 'Errore');
+define('_LOGGER_E_NOTICE', 'Avviso');
+define('_LOGGER_E_WARNING', 'Attenzione');
+define('_LOGGER_E_STRICT', 'Stretto');
+define('_LOGGER_FILELINE', '%s nel file %s linea %s');

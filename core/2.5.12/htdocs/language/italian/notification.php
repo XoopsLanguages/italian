@@ -5,69 +5,69 @@
 // Translator: XOOPS Translation Team
 // RMV-NOTIFY
 // Text for various templates...
-define('_NOT_NOTIFICATIONOPTIONS', 'Notification Options');
-define('_NOT_UPDATENOW', 'Update Now');
-define('_NOT_UPDATEOPTIONS', 'Update Notification Options');
-define('_NOT_CLEAR', 'Clear');
-define('_NOT_CHECKALL', 'Check All');
-define('_NOT_MODULE', 'Module');
-define('_NOT_CATEGORY', 'Category');
+define('_NOT_NOTIFICATIONOPTIONS', 'Opzioni di Notifica');
+define('_NOT_UPDATENOW', 'Aggiorna Ora');
+define('_NOT_UPDATEOPTIONS', 'Aggiorna Opzioni di Notifica');
+define('_NOT_CLEAR', 'Cancella');
+define('_NOT_CHECKALL', 'Seleziona Tutto');
+define('_NOT_MODULE', 'Modulo');
+define('_NOT_CATEGORY', 'Categoria');
 define('_NOT_ITEMID', 'ID');
-define('_NOT_ITEMNAME', 'Name');
-define('_NOT_EVENT', 'Event');
-define('_NOT_EVENTS', 'Events');
-define('_NOT_ACTIVENOTIFICATIONS', 'Active Notifications');
-define('_NOT_NAMENOTAVAILABLE', 'Name Not Available');
+define('_NOT_ITEMNAME', 'Nome');
+define('_NOT_EVENT', 'Evento');
+define('_NOT_EVENTS', 'Eventi');
+define('_NOT_ACTIVENOTIFICATIONS', 'Notifiche Attive');
+define('_NOT_NAMENOTAVAILABLE', 'Nome Non Disponibile');
 // RMV-NEW : TODO: remove NAMENOTAVAILBLE above
-define('_NOT_ITEMNAMENOTAVAILABLE', 'Item Name Not Available');
-define('_NOT_ITEMTYPENOTAVAILABLE', 'Item Type Not Available');
-define('_NOT_ITEMURLNOTAVAILABLE', 'Item URL Not Available');
-define('_NOT_DELETINGNOTIFICATIONS', 'Deleting Notifications');
-define('_NOT_DELETESUCCESS', 'Notification(s) deleted successfully.');
-define('_NOT_UPDATEOK', 'Notification options updated');
-define('_NOT_NOTIFICATIONMETHODIS', 'Notification method is');
+define('_NOT_ITEMNAMENOTAVAILABLE', 'Nome Elemento Non Disponibile');
+define('_NOT_ITEMTYPENOTAVAILABLE', 'Tipo Elemento Non Disponibile');
+define('_NOT_ITEMURLNOTAVAILABLE', 'URL Elemento Non Disponibile');
+define('_NOT_DELETINGNOTIFICATIONS', 'Eliminazione Notifiche');
+define('_NOT_DELETESUCCESS', 'Notifica(he) eliminata(e) con successo.');
+define('_NOT_UPDATEOK', 'Opzioni di notifica aggiornate');
+define('_NOT_NOTIFICATIONMETHODIS', 'Il metodo di notifica è');
 define('_NOT_EMAIL', 'email');
-define('_NOT_PM', 'private message');
-define('_NOT_DISABLE', 'disabled');
-define('_NOT_CHANGE', 'Change');
-define('_NOT_NOACCESS', 'You do not have permission to access this page.');
+define('_NOT_PM', 'messaggio privato');
+define('_NOT_DISABLE', 'disabilitato');
+define('_NOT_CHANGE', 'Cambia');
+define('_NOT_NOACCESS', 'Non hai il permesso di accedere a questa pagina.');
 // Text for module config options
-define('_NOT_ENABLE', 'Enable');
-define('_NOT_NOTIFICATION', 'Notification');
-define('_NOT_CONFIG_ENABLED', 'Enable Notification');
-define('_NOT_CONFIG_ENABLEDDSC', 'This module allows users to select to be notified when certain events occur.  Choose "yes" to enable this feature.');
-define('_NOT_CONFIG_EVENTS', 'Enable Specific Events');
-define('_NOT_CONFIG_EVENTSDSC', 'Select which notification events to which your users may subscribe.');
-define('_NOT_CONFIG_ENABLE', 'Enable Notification');
-define('_NOT_CONFIG_ENABLEDSC', 'This module allows users to be notified when certain events occur.  Select if users should be presented with notification options in a Block (Block-style), within the module (Inline-style), or both.  For block-style notification, the Notification Options block must be enabled for this module.');
-define('_NOT_CONFIG_DISABLE', 'Disable Notification');
-define('_NOT_CONFIG_ENABLEBLOCK', 'Enable only Block-style');
-define('_NOT_CONFIG_ENABLEINLINE', 'Enable only Inline-style');
-define('_NOT_CONFIG_ENABLEBOTH', 'Enable Notification (both styles)');
+define('_NOT_ENABLE', 'Abilita');
+define('_NOT_NOTIFICATION', 'Notifica');
+define('_NOT_CONFIG_ENABLED', 'Abilita Notifica');
+define('_NOT_CONFIG_ENABLEDDSC', 'Questo modulo permette agli utenti di scegliere di essere notificati quando si verificano determinati eventi. Scegli "sì" per abilitare questa funzionalità.');
+define('_NOT_CONFIG_EVENTS', 'Abilita Eventi Specifici');
+define('_NOT_CONFIG_EVENTSDSC', 'Seleziona a quali eventi di notifica i tuoi utenti possono iscriversi.');
+define('_NOT_CONFIG_ENABLE', 'Abilita Notifica');
+define('_NOT_CONFIG_ENABLEDSC', 'Questo modulo permette agli utenti di essere notificati quando si verificano determinati eventi. Seleziona se gli utenti devono visualizzare le opzioni di notifica in un Blocco (stile Blocco), all\'interno del modulo (stile Inline) o entrambi. Per la notifica in stile blocco, il blocco Opzioni di Notifica deve essere abilitato per questo modulo.');
+define('_NOT_CONFIG_DISABLE', 'Disabilita Notifica');
+define('_NOT_CONFIG_ENABLEBLOCK', 'Abilita solo stile Blocco');
+define('_NOT_CONFIG_ENABLEINLINE', 'Abilita solo stile Inline');
+define('_NOT_CONFIG_ENABLEBOTH', 'Abilita Notifica (entrambi gli stili)');
 // For notification about comment events
-define('_NOT_COMMENT_NOTIFY', 'Comment Added');
-define('_NOT_COMMENT_NOTIFYCAP', 'Notify me when a new comment is posted for this item.');
-define('_NOT_COMMENT_NOTIFYDSC', 'Receive notification whenever a new comment is posted (or approved) for this item.');
-define('_NOT_COMMENT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify: Comment added to {X_ITEM_TYPE}');
-define('_NOT_COMMENTSUBMIT_NOTIFY', 'Comment Submitted');
-define('_NOT_COMMENTSUBMIT_NOTIFYCAP', 'Notify me when a new comment is submitted (awaiting approval) for this item.');
-define('_NOT_COMMENTSUBMIT_NOTIFYDSC', 'Receive notification whenever a new comment is submitted (awaiting approval) for this item.');
-define('_NOT_COMMENTSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify: Comment submitted for {X_ITEM_TYPE}');
+define('_NOT_COMMENT_NOTIFY', 'Commento Aggiunto');
+define('_NOT_COMMENT_NOTIFYCAP', 'Notificami quando viene pubblicato un nuovo commento per questo elemento.');
+define('_NOT_COMMENT_NOTIFYDSC', 'Ricevi una notifica ogni volta che un nuovo commento viene pubblicato (o approvato) per questo elemento.');
+define('_NOT_COMMENT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} notifica automatica: Commento aggiunto a {X_ITEM_TYPE}');
+define('_NOT_COMMENTSUBMIT_NOTIFY', 'Commento Inviato');
+define('_NOT_COMMENTSUBMIT_NOTIFYCAP', 'Notificami quando viene inviato un nuovo commento (in attesa di approvazione) per questo elemento.');
+define('_NOT_COMMENTSUBMIT_NOTIFYDSC', 'Ricevi una notifica ogni volta che un nuovo commento viene inviato (in attesa di approvazione) per questo elemento.');
+define('_NOT_COMMENTSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} notifica automatica: Commento inviato per {X_ITEM_TYPE}');
 // For notification bookmark feature
 // (Not really notification, but easy to do with this module)
-define('_NOT_BOOKMARK_NOTIFY', 'Bookmark');
-define('_NOT_BOOKMARK_NOTIFYCAP', 'Bookmark this item (no notification).');
-define('_NOT_BOOKMARK_NOTIFYDSC', 'Keep track of this item without receiving any event notifications.');
+define('_NOT_BOOKMARK_NOTIFY', 'Segnalibro');
+define('_NOT_BOOKMARK_NOTIFYCAP', 'Aggiungi questo elemento ai segnalibri (nessuna notifica).');
+define('_NOT_BOOKMARK_NOTIFYDSC', 'Tieni traccia di questo elemento senza ricevere alcuna notifica di evento.');
 // For user profile
 // FIXME: These should be reworded a little...
-define('_NOT_NOTIFYMETHOD', 'Notification Method<br> When you monitor e.g. a forum, how would you like to receive notifications of updates?');
-define('_NOT_METHOD_EMAIL', 'Email (use address in my profile)');
-define('_NOT_METHOD_PM', 'Private Message');
-define('_NOT_METHOD_DISABLE', 'Temporarily Disable');
-define('_NOT_NOTIFYMODE', 'Default Notification Mode');
-define('_NOT_MODE_SENDALWAYS', 'Notify me of all selected updates');
-define('_NOT_MODE_SENDONCE', 'Notify me only once');
-define('_NOT_MODE_SENDONCEPERLOGIN', 'Notify me once then disable until I log in again');
-define('_NOT_NOTHINGTODELETE', 'There is nothing to delete.');
+define('_NOT_NOTIFYMETHOD', 'Metodo di Notifica<br> Quando monitori ad es. un forum, come desideri ricevere le notifiche degli aggiornamenti?');
+define('_NOT_METHOD_EMAIL', 'Email (usa l\'indirizzo nel mio profilo)');
+define('_NOT_METHOD_PM', 'Messaggio Privato');
+define('_NOT_METHOD_DISABLE', 'Disabilita Temporaneamente');
+define('_NOT_NOTIFYMODE', 'Modalità di Notifica Predefinita');
+define('_NOT_MODE_SENDALWAYS', 'Notificami tutti gli aggiornamenti selezionati');
+define('_NOT_MODE_SENDONCE', 'Notificami solo una volta');
+define('_NOT_MODE_SENDONCEPERLOGIN', 'Notificami una volta, poi disabilita fino al mio prossimo login');
+define('_NOT_NOTHINGTODELETE', 'Non c\'è niente da eliminare.');
 //XOOPS 2.5.9
-define('_NOT_RUSUREDEL', 'Are you sure to delete this Notification?');
+define('_NOT_RUSUREDEL', 'Sei sicuro di voler eliminare questa Notifica?');

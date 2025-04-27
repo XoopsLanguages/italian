@@ -1,20 +1,20 @@
-Hello {X_UNAME},
+Ciao {X_UNAME},
 
-The event {X_NOTIFY_EVENT} has occurred to the {X_ITEM_TYPE} "{X_ITEM_NAME}" you are monitoring in the {X_MODULE} module at our site.
+L'evento {X_NOTIFY_EVENT} si è verificato per il {X_ITEM_TYPE} "{X_ITEM_NAME}" che stai monitorando nel modulo {X_MODULE} sul nostro sito.
 
-You can view the {X_ITEM_TYPE} here:
+Puoi visualizzare il {X_ITEM_TYPE} qui:
 {X_ITEM_URL}
 
 -----------
 
-You have subscribed to receive notifications of this sort.
+Hai sottoscritto per ricevere notifiche di questo tipo.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+Se questo è un errore o non desideri ricevere ulteriori notifiche di questo tipo, per favore aggiorna le tue sottoscrizioni visitando il link sottostante:
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+Si prega di non rispondere a questo messaggio.
 
 -----------
-{X_SITENAME} ({X_SITEURL}) 
+{X_SITENAME} ({X_SITEURL})
 webmaster
 {X_ADMINMAIL}

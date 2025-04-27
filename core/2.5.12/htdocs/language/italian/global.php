@@ -3,244 +3,244 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_PLEASEWAIT', 'Please Wait');
-define('_FETCHING', 'Loading...');
-define('_TAKINGBACK', 'Taking you back to where you were....');
-define('_LOGOUT', 'Logout');
-define('_SUBJECT', 'Subject');
-define('_MESSAGEICON', 'Message Icon');
-define('_COMMENTS', 'Comments');
-define('_POSTANON', 'Post Anonymously');
-define('_DISABLESMILEY', 'Disable smiley');
-define('_DISABLEHTML', 'Disable HTML');
-define('_PREVIEW', 'Preview');
-define('_GO', 'Go!');
-define('_NESTED', 'Nested');
-define('_NOCOMMENTS', 'No Comments');
-define('_FLAT', 'Flat');
-define('_THREADED', 'Threaded');
-define('_OLDESTFIRST', 'Oldest First');
-define('_NEWESTFIRST', 'Newest First');
-define('_MORE', 'more...');
-define('_MULTIPAGE', 'To have your article span multiple pages, insert the word <span color=red>[pagebreak]</span> (with brackets) in the article.');
-define('_IFNOTRELOAD', 'If the page does not automatically reload, please click <a href=\'%s\'>here</a>');
+define('_PLEASEWAIT', 'Attendi per favore');
+define('_FETCHING', 'Caricamento...');
+define('_TAKINGBACK', 'Ti stiamo riportando dove eri...');
+define('_LOGOUT', 'Esci');
+define('_SUBJECT', 'Oggetto');
+define('_MESSAGEICON', 'Icona del messaggio');
+define('_COMMENTS', 'Commenti');
+define('_POSTANON', 'Pubblica anonimamente');
+define('_DISABLESMILEY', 'Disabilita smiley');
+define('_DISABLEHTML', 'Disabilita HTML');
+define('_PREVIEW', 'Anteprima');
+define('_GO', 'Vai!');
+define('_NESTED', 'Annidato');
+define('_NOCOMMENTS', 'Nessun commento');
+define('_FLAT', 'Piatto');
+define('_THREADED', 'A thread');
+define('_OLDESTFIRST', 'Prima i più vecchi');
+define('_NEWESTFIRST', 'Prima i più recenti');
+define('_MORE', 'altro...');
+define('_MULTIPAGE', 'Per suddividere l\'articolo in più pagine, inserisci la parola <span color=red>[pagebreak]</span> (con parentesi) nell\'articolo.');
+define('_IFNOTRELOAD', 'Se la pagina non si ricarica automaticamente, clicca <a href=\'%s\'>qui</a>');
 // Error messages issued by XoopsObject::cleanVars()
-define('_XOBJ_ERR_REQUIRED', '%s is required');
-define('_XOBJ_ERR_SHORTERTHAN', '%s must be shorter than %d characters.');
+define('_XOBJ_ERR_REQUIRED', '%s è obbligatorio');
+define('_XOBJ_ERR_SHORTERTHAN', '%s deve essere più corto di %d caratteri.');
 // %%%%%%    File Name themeuserpost.php     %%%%%
-define('_PROFILE', 'Profile');
-define('_POSTEDBY', 'Posted by');
-define('_VISITWEBSITE', 'Visit Website');
-define('_SENDPMTO', 'Send Private Message to %s');
-define('_SENDEMAILTO', 'Send Email to %s');
-define('_ADD', 'Add');
-define('_REPLY', 'Reply');
-define('_DATE', 'Date'); // Posted date
+define('_PROFILE', 'Profilo');
+define('_POSTEDBY', 'Pubblicato da');
+define('_VISITWEBSITE', 'Visita il sito web');
+define('_SENDPMTO', 'Invia messaggio privato a %s');
+define('_SENDEMAILTO', 'Invia email a %s');
+define('_ADD', 'Aggiungi');
+define('_REPLY', 'Rispondi');
+define('_DATE', 'Data'); // Posted date
 // %%%%%%    File Name admin_functions.php     %%%%%
-define('_MAIN', 'Main');
-define('_MANUAL', 'Manual');
-define('_INFO', 'Info');
-define('_CPHOME', 'Control Panel Home');
-define('_YOURHOME', 'Home Page');
+define('_MAIN', 'Principale');
+define('_MANUAL', 'Manuale');
+define('_INFO', 'Informazioni');
+define('_CPHOME', 'Home del pannello di controllo');
+define('_YOURHOME', 'Pagina iniziale');
 // %%%%%%    File Name misc.php (who's-online popup)    %%%%%
-define('_WHOSONLINE', 'Who\'s Online');
-define('_GUESTS', 'Guests');
-define('_MEMBERS', 'Members');
-define('_ONLINEPHRASE', '<strong>%s</strong> user(s) are online');
-define('_ONLINEPHRASEX', '<strong>%s</strong> user(s) are browsing <strong>%s</strong>');
-define('_CLOSE', 'Close'); // Close window
+define('_WHOSONLINE', 'Chi è online');
+define('_GUESTS', 'Ospiti');
+define('_MEMBERS', 'Membri');
+define('_ONLINEPHRASE', '<strong>%s</strong> utente(i) online');
+define('_ONLINEPHRASEX', '<strong>%s</strong> utente(i) stanno navigando <strong>%s</strong>');
+define('_CLOSE', 'Chiudi'); // Close window
 // %%%%%%    File Name module.textsanitizer.php     %%%%%
-define('_QUOTEC', 'Quote:');
+define('_QUOTEC', 'Citazione:');
 // %%%%%%    File Name admin.php     %%%%%
-define('_NOPERM', 'Sorry, you don\'t have the permission to access this area.');
+define('_NOPERM', 'Spiacenti, non hai il permesso per accedere a questa area.');
 // %%%%%        Common Phrases        %%%%%
 define('_NO', 'No');
-define('_YES', 'Yes');
-define('_EDIT', 'Edit');
-define('_DELETE', 'Delete');
-define('_SUBMIT', 'Submit');
-define('_MODULENOEXIST', 'Selected module does not exist!');
-define('_ALIGN', 'Align');
-define('_LEFT', 'Left');
-define('_CENTER', 'Center');
-define('_RIGHT', 'Right');
-define('_FORM_ENTER', 'Please enter %s');
-define('_MUSTWABLE', 'File %s must be writable by the server!'); // %s represents file name
+define('_YES', 'Sì');
+define('_EDIT', 'Modifica');
+define('_DELETE', 'Elimina');
+define('_SUBMIT', 'Invia');
+define('_MODULENOEXIST', 'Il modulo selezionato non esiste!');
+define('_ALIGN', 'Allinea');
+define('_LEFT', 'Sinistra');
+define('_CENTER', 'Centro');
+define('_RIGHT', 'Destra');
+define('_FORM_ENTER', 'Inserisci %s');
+define('_MUSTWABLE', 'Il file %s deve essere scrivibile dal server!'); // %s represents file name
 // Module info
-define('_PREFERENCES', 'Preferences');
-define('_VERSION', 'Version');
-define('_DESCRIPTION', 'Description');
-define('_AUTHOR', 'Author');
-define('_CREDITS', 'Credits');
-define('_LICENCE', 'Licence');
-define('_ERRORS', 'Errors');
-define('_NONE', 'None');
-define('_ON', 'On');
-define('_READS', 'reads');
-define('_WELCOMETO', 'Welcome to %s');
-define('_SEARCH', 'Search');
-define('_ALL', 'All');
-define('_TITLE', 'Title');
-define('_OPTIONS', 'Options');
-define('_QUOTE', 'Quote');
-define('_LIST', 'List');
-define('_LOGIN', 'User Login');
-define('_USERNAME', 'Username: ');
+define('_PREFERENCES', 'Preferenze');
+define('_VERSION', 'Versione');
+define('_DESCRIPTION', 'Descrizione');
+define('_AUTHOR', 'Autore');
+define('_CREDITS', 'Crediti');
+define('_LICENCE', 'Licenza');
+define('_ERRORS', 'Errori');
+define('_NONE', 'Nessuno');
+define('_ON', 'Attivo');
+define('_READS', 'letture');
+define('_WELCOMETO', 'Benvenuto su %s');
+define('_SEARCH', 'Cerca');
+define('_ALL', 'Tutti');
+define('_TITLE', 'Titolo');
+define('_OPTIONS', 'Opzioni');
+define('_QUOTE', 'Citazione');
+define('_LIST', 'Elenco');
+define('_LOGIN', 'Accesso utente');
+define('_USERNAME', 'Nome utente: ');
 define('_PASSWORD', 'Password: ');
-define('_SELECT', 'Select');
-define('_IMAGE', 'Image');
-define('_SEND', 'Send');
-define('_CANCEL', 'Cancel');
-define('_ASCENDING', 'Ascending order');
-define('_DESCENDING', 'Descending order');
-define('_BACK', 'Back');
-define('_NOTITLE', 'No title');
+define('_SELECT', 'Seleziona');
+define('_IMAGE', 'Immagine');
+define('_SEND', 'Invia');
+define('_CANCEL', 'Annulla');
+define('_ASCENDING', 'Ordine crescente');
+define('_DESCENDING', 'Ordine decrescente');
+define('_BACK', 'Indietro');
+define('_NOTITLE', 'Nessun titolo');
 /**
  * Image manager
  */
-define('_MD_ADDIMGCAT', 'Add Category');
-define('_MD_IMGCATNAME', 'Category name');
-define('_MD_IMGCATRGRP', 'Select groups for image manager use');
-define('_MD_IMGCATWGRP', 'Select groups allowed to upload images');
-define('_MD_IMGCATWEIGHT', 'Display order in image manager');
-define('_MD_IMGCATDISPLAY', 'Display');
-define('_MD_IMGCATSTRTYPE', 'Images are uploaded to:');
-define('_MD_STRTYOPENG', 'This can not be changed afterwards!');
-define('_MD_ASFILE', 'Store as files (in uploads directory)');
-define('_MD_INDB', "Store in the database (as binary \"blob\" data)");
-define('_MD_IMGMAIN', 'Category');
-define('_MD_EDITIMGCAT', 'Images Settings');
-define('_IMGMANAGER', 'Image Manager');
-define('_NUMIMAGES', '%s images');
-define('_ADDIMAGE', 'Add Image File');
-define('_IMAGENAME', 'Name:');
-define('_IMGMAXSIZE', 'Max size allowed (bytes):');
-define('_IMGMAXWIDTH', 'Max width allowed (pixels):');
-define('_IMGMAXHEIGHT', 'Max height allowed (pixels):');
-define('_IMAGECAT', 'Category:');
-define('_IMAGEFILE', 'Image file:');
-define('_IMGWEIGHT', 'Display order in image manager:');
-define('_IMGDISPLAY', 'Display this image?');
-define('_IMAGEMIME', 'MIME type:');
-define('_FAILFETCHIMG', 'Could not get uploaded file %s');
-define('_FAILSAVEIMG', 'Failed storing image %s into the database');
-define('_NOCACHE', 'No Cache');
-define('_CLONE', 'Clone');
+define('_MD_ADDIMGCAT', 'Aggiungi categoria');
+define('_MD_IMGCATNAME', 'Nome categoria');
+define('_MD_IMGCATRGRP', 'Seleziona i gruppi per l\'uso del gestore immagini');
+define('_MD_IMGCATWGRP', 'Seleziona i gruppi autorizzati a caricare immagini');
+define('_MD_IMGCATWEIGHT', 'Ordine di visualizzazione nel gestore immagini');
+define('_MD_IMGCATDISPLAY', 'Mostra');
+define('_MD_IMGCATSTRTYPE', 'Le immagini vengono caricate in:');
+define('_MD_STRTYOPENG', 'Questo non può essere modificato successivamente!');
+define('_MD_ASFILE', 'Salva come file (nella directory uploads)');
+define('_MD_INDB', 'Salva nel database (come dati binari "blob")');
+define('_MD_IMGMAIN', 'Categoria');
+define('_MD_EDITIMGCAT', 'Impostazioni immagini');
+define('_IMGMANAGER', 'Gestore immagini');
+define('_NUMIMAGES', '%s immagini');
+define('_ADDIMAGE', 'Aggiungi file immagine');
+define('_IMAGENAME', 'Nome:');
+define('_IMGMAXSIZE', 'Dimensione massima consentita (byte):');
+define('_IMGMAXWIDTH', 'Larghezza massima consentita (pixel):');
+define('_IMGMAXHEIGHT', 'Altezza massima consentita (pixel):');
+define('_IMAGECAT', 'Categoria:');
+define('_IMAGEFILE', 'File immagine:');
+define('_IMGWEIGHT', 'Ordine di visualizzazione nel gestore immagini:');
+define('_IMGDISPLAY', 'Mostrare questa immagine?');
+define('_IMAGEMIME', 'Tipo MIME:');
+define('_FAILFETCHIMG', 'Impossibile recuperare il file caricato %s');
+define('_FAILSAVEIMG', 'Impossibile salvare l\'immagine %s nel database');
+define('_NOCACHE', 'Nessuna cache');
+define('_CLONE', 'Clona');
 /**
  * fineupload
  */
-define('_UPLOAD', 'Upload');
-define('_SELECTFILES', 'Select files');
-define('_DROPFILESHERE', 'Drop files here');
-define('_RETRY', 'Retry');
+define('_UPLOAD', 'Carica');
+define('_SELECTFILES', 'Seleziona file');
+define('_DROPFILESHERE', 'Trascina i file qui');
+define('_RETRY', 'Riprova');
 define('_OK', 'Ok');
-define('_FORMATPROGRESS', '{percent}% of {total_size}');
-define('_FAILUPLOAD', 'Upload failed!');
-define('_WAITINGFORRESPONSE', 'Processing...');
-define('_PAUSED', 'Paused');
-define('_PROCESSINGDROPPEDFILES', 'Processing dropped files...');
-define('_TYPEERROR', '{file} has an invalid extension. Valid extension(s): {extensions}!');
-define('_SIZEERROR', '{file} is too large, maximum file size is {sizeLimit}!');
-define('_MINSIZEERROR', '{file} is too small, minimum file size is {minSizeLimit}!');
-define('_EMPTYERROR', '{file} is empty, please select files again without it!');
-define('_NOFILESERROR', 'No files to upload!');
-define('_TOOMANYITEMSERROR', 'Too many items ({netItems}) would be uploaded.  Item limit is {itemLimit}!');
-define('_MAXHEIGHTIMAGEERROR', 'Image is too tall!');
-define('_MAXWIDTHIMAGEERROR', 'Image is too wide!');
-define('_MINHEIGHTIMAGEERROR', 'Image is not tall enough!');
-define('_MINWIDTHIMAGEERROR', 'Image is not wide enough!');
-define('_RETRYFAILTOOMANYITEMS', 'Retry failed - you have reached your file limit!');
-define('_ONLEAVE', 'The files are being uploaded, if you leave now the upload will be canceled!');
-define('_UNSUPPORTEDBROWSERIOS8SAFARI', 'Unrecoverable error - this browser does not permit file uploading of any kind due to serious bugs in iOS8 Safari.  Please use iOS8 Chrome until Apple fixes these issues!');
+define('_FORMATPROGRESS', '{percent}% di {total_size}');
+define('_FAILUPLOAD', 'Caricamento fallito!');
+define('_WAITINGFORRESPONSE', 'Elaborazione...');
+define('_PAUSED', 'In pausa');
+define('_PROCESSINGDROPPEDFILES', 'Elaborazione dei file trascinati...');
+define('_TYPEERROR', '{file} ha un\'estensione non valida. Estensione(i) valida(e): {extensions}!');
+define('_SIZEERROR', '{file} è troppo grande, la dimensione massima del file è {sizeLimit}!');
+define('_MINSIZEERROR', '{file} è troppo piccolo, la dimensione minima del file è {minSizeLimit}!');
+define('_EMPTYERROR', '{file} è vuoto, seleziona nuovamente i file escludendolo!');
+define('_NOFILESERROR', 'Nessun file da caricare!');
+define('_TOOMANYITEMSERROR', 'Troppi elementi ({netItems}) verrebbero caricati. Il limite di elementi è {itemLimit}!');
+define('_MAXHEIGHTIMAGEERROR', 'L\'immagine è troppo alta!');
+define('_MAXWIDTHIMAGEERROR', 'L\'immagine è troppo larga!');
+define('_MINHEIGHTIMAGEERROR', 'L\'immagine non è abbastanza alta!');
+define('_MINWIDTHIMAGEERROR', 'L\'immagine non è abbastanza larga!');
+define('_RETRYFAILTOOMANYITEMS', 'Riprova fallita - hai raggiunto il limite di file!');
+define('_ONLEAVE', 'I file stanno sendo caricati, se esci ora il caricamento verrà annullato!');
+define('_UNSUPPORTEDBROWSERIOS8SAFARI', 'Errore irrecuperabile - questo browser non consente il caricamento di file di alcun tipo a causa di gravi bug in iOS8 Safari. Usa iOS8 Chrome finché Apple non risolve questi problemi!');
 
 // %%%%%    For xoopsform files %%%%%
-define('_STARTSWITH', 'Starts with');
-define('_ENDSWITH', 'Ends with');
-define('_MATCHES', 'Matches');
-define('_CONTAINS', 'Contains');
-define('_REQUIRED', 'Required');
+define('_STARTSWITH', 'Inizia con');
+define('_ENDSWITH', 'Finisce con');
+define('_MATCHES', 'Corrisponde');
+define('_CONTAINS', 'Contiene');
+define('_REQUIRED', 'Obbligatorio');
 // %%%%%%    File Name commentform.php     %%%%%
-define('_REGISTER', 'Register');
+define('_REGISTER', 'Registrati');
 // %%%%%%    File Name xoopscodes.php     %%%%%
-define('_SIZE', 'Size'); // font size
-define('_FONT', 'Font'); // font family
-define('_COLOR', 'Color'); // font color
-define('_EXAMPLE', 'SAMPLE');
-define('_ENTERURL', 'Enter the URL of the link you want to add:');
-define('_ENTERWEBTITLE', 'Enter the web site title:');
-define('_ENTERIMGURL', 'Enter the URL of the image you want to add.');
-define('_ENTERIMGPOS', 'Now, enter the position of the image.');
-define('_IMGPOSRORL', '\'R\' or \'r\' for right, \'L\' or \'l\' for left, or leave it blank.');
-define('_ERRORIMGPOS', 'ERROR! Enter the position of the image.');
-define('_ENTEREMAIL', 'Enter the email address you want to add.');
-define('_ENTERCODE', 'Enter the codes that you want to add.');
-define('_ENTERQUOTE', 'Enter the text that you want to be quoted.');
-define('_ENTERTEXTBOX', 'Please input text into the textbox.');
-define('_ALLOWEDCHAR', 'Allowed max chars length: ');
-define('_CURRCHAR', 'Current chars length: ');
-define('_PLZCOMPLETE', 'Please complete the subject and message fields.');
-define('_MESSAGETOOLONG', 'Your message is too long.');
+define('_SIZE', 'Dimensione'); // font size
+define('_FONT', 'Carattere'); // font family
+define('_COLOR', 'Colore'); // font color
+define('_EXAMPLE', 'ESEMPIO');
+define('_ENTERURL', 'Inserisci l\'URL del link che vuoi aggiungere:');
+define('_ENTERWEBTITLE', 'Inserisci il titolo del sito web:');
+define('_ENTERIMGURL', 'Inserisci l\'URL dell\'immagine che vuoi aggiungere.');
+define('_ENTERIMGPOS', 'Ora, inserisci la posizione dell\'immagine.');
+define('_IMGPOSRORL', '\'R\' o \'r\' per destra, \'L\' o \'l\' per sinistra, o lascia vuoto.');
+define('_ERRORIMGPOS', 'ERRORE! Inserisci la posizione dell\'immagine.');
+define('_ENTEREMAIL', 'Inserisci l\'indirizzo email che vuoi aggiungere.');
+define('_ENTERCODE', 'Inserisci i codici che vuoi aggiungere.');
+define('_ENTERQUOTE', 'Inserisci il testo che vuoi citare.');
+define('_ENTERTEXTBOX', 'Inserisci il testo nella casella di testo.');
+define('_ALLOWEDCHAR', 'Lunghezza massima caratteri consentita: ');
+define('_CURRCHAR', 'Lunghezza attuale caratteri: ');
+define('_PLZCOMPLETE', 'Completa i campi oggetto e messaggio.');
+define('_MESSAGETOOLONG', 'Il tuo messaggio è troppo lungo.');
 /**
  * xoops smilie
  */
-define('_AM_ADDSMILE', ' Add a new smilie');
-define('_AM_SMILECODE', 'Code');
-define('_AM_SMILEEMOTION', 'Description');
-define('_AM_DISPLAYF', 'Display in the form');
+define('_AM_ADDSMILE', 'Aggiungi un nuovo smiley');
+define('_AM_SMILECODE', 'Codice');
+define('_AM_SMILEEMOTION', 'Descrizione');
+define('_AM_DISPLAYF', 'Mostra nel form');
 // %%%%%        TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 second');
-define('_SECONDS', '%s seconds');
-define('_MINUTE', '1 minute');
-define('_MINUTES', '%s minutes');
-define('_HOUR', '1 hour');
-define('_HOURS', '%s hours');
-define('_DAY', '1 day');
-define('_DAYS', '%s days');
-define('_WEEK', '1 week');
-define('_MONTH', '1 month');
+define('_SECOND', '1 secondo');
+define('_SECONDS', '%s secondi');
+define('_MINUTE', '1 minuto');
+define('_MINUTES', '%s minuti');
+define('_HOUR', '1 ora');
+define('_HOURS', '%s ore');
+define('_DAY', '1 giorno');
+define('_DAYS', '%s giorni');
+define('_WEEK', '1 settimana');
+define('_MONTH', '1 mese');
 define('_DATESTRING', 'Y/n/j G:i:s');
-//define('_MEDIUMDATESTRING', 'Y/n/j G:i');
 define('_MEDIUMDATESTRING', 'm/d/Y G:i');
-//define('_SHORTDATESTRING','n/j/Y');
 define('_SHORTDATESTRING', 'm/d/Y');
+
 /**
- * The following characters are recognized in the format string:
- * a - 'am' or 'pm'
- * A - 'AM' or 'PM'
- * d - day of the month, 2 digits with leading zeros; i.e. '01' to '31'
- * D - day of the week, textual, 3 letters; i.e. 'Fri'
- * F - month, textual, long; i.e. 'January'
- * h - hour, 12-hour format; i.e. '01' to '12'
- * H - hour, 24-hour format; i.e. '00' to '23'
- * g - hour, 12-hour format without leading zeros; i.e. '1' to '12'
- * G - hour, 24-hour format without leading zeros; i.e. '0' to '23'
- * i - minutes; i.e. '00' to '59'
- * j - day of the month without leading zeros; i.e. '1' to '31'
- * l (lowercase 'L') - day of the week, textual, long; i.e. 'Friday'
- * L - boolean for whether it is a leap year; i.e. '0' or '1'
- * m - month; i.e. '01' to '12'
- * n - month without leading zeros; i.e. '1' to '12'
- * M - month, textual, 3 letters; i.e. 'Jan'
- * s - seconds; i.e. '00' to '59'
- * S - English ordinal suffix, textual, 2 characters; i.e. 'th','nd'
- * t - number of days in the given month; i.e. '28' to '31'
- * T - Timezone setting of this machine; i.e. 'MDT'
- * U - seconds since the epoch
- * w - day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)
- * Y - year, 4 digits; i.e. '1999'
- * y - year, 2 digits; i.e. '99'
- * z - day of the year; i.e. '0' to '365'
- * Z - timezone offset in seconds (i.e. '-43200' to '43200')
+ * I seguenti caratteri sono riconosciuti nella stringa di formato:
+ * a - 'am' o 'pm'
+ * A - 'AM' o 'PM'
+ * d - giorno del mese, 2 cifre con zeri iniziali; ad esempio '01' a '31'
+ * D - giorno della settimana, testuale, 3 lettere; ad esempio 'Ven'
+ * F - mese, testuale, lungo; ad esempio 'Gennaio'
+ * h - ora, formato 12 ore; ad esempio '01' a '12'
+ * H - ora, formato 24 ore; ad esempio '00' a '23'
+ * g - ora, formato 12 ore senza zeri iniziali; ad esempio '1' a '12'
+ * G - ora, formato 24 ore senza zeri iniziali; ad esempio '0' a '23'
+ * i - minuti; ad esempio '00' a '59'
+ * j - giorno del mese senza zeri iniziali; ad esempio '1' a '31'
+ * l (minuscolo 'L') - giorno della settimana, testuale, lungo; ad esempio 'Venerdì'
+ * L - booleano per indicare se è un anno bisestile; ad esempio '0' o '1'
+ * m - mese; ad esempio '01' a '12'
+ * n - mese senza zeri iniziali; ad esempio '1' a '12'
+ * M - mese, testuale, 3 lettere; ad esempio 'Gen'
+ * s - secondi; ad esempio '00' a '59'
+ * S - suffisso ordinale inglese, testuale, 2 caratteri; ad esempio 'th', 'nd'
+ * t - numero di giorni nel mese dato; ad esempio '28' a '31'
+ * T - impostazione del fuso orario di questa macchina; ad esempio 'MDT'
+ * U - secondi dall'epoca
+ * w - giorno della settimana, numerico, ad esempio '0' (Domenica) a '6' (Sabato)
+ * Y - anno, 4 cifre; ad esempio '1999'
+ * y - anno, 2 cifre; ad esempio '99'
+ * z - giorno dell'anno; ad esempio '0' a '365'
+ * Z - offset del fuso orario in secondi (ad esempio '-43200' a '43200')
  */
+
 // %%%%%        LANGUAGE SPECIFIC SETTINGS   %%%%%
 define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'en');
+define('_LANGCODE', 'it');
 // change 0 to 1 if this language is a multi-bytes language
 define('XOOPS_USE_MULTIBYTES', '0');
 /**
  * Additions to 2.4.0
  **/
-define('_RESET', 'Reset');
+define('_RESET', 'Reimposta');
 define('_RE', 'Re:');
 /**
  * Additions to 2.5.5
@@ -250,17 +250,15 @@ define('_DBTIMESTRING', 'H:i:s');
 define('_DBTIMESTAMPSTRING', 'Y-m-d H:i:s');
 
 //2.5.8
-
-//define('_XOBJ_ERR_INVALID_EMAIL', 'Invalid Email');
-//define('_XOBJ_ERR_INVALID_ENUMERATION', 'Invalid Enumeration');
+//define('_XOBJ_ERR_INVALID_EMAIL', 'Email non valida');
+//define('_XOBJ_ERR_INVALID_ENUMERATION', 'Enumerazione non valida');
 
 //XOOPS 2.5.9
-define('_AM_MODULEADMIN_MISSING','Error: The ModuleAdmin class is missing. Please install the ModuleAdmin Class into /Frameworks (see /docs/readme.txt)');
-define('_MD_MESSAGEC', 'Message:');
-
+define('_AM_MODULEADMIN_MISSING', 'Errore: La classe ModuleAdmin è mancante. Installa la classe ModuleAdmin in /Frameworks (vedi /docs/readme.txt)');
+define('_MD_MESSAGEC', 'Messaggio:');
 
 //XOOPS 2.5.11
-define('_PRINT', 'Print');
+define('_PRINT', 'Stampa');
 define('_PDF', 'PDF');
-define('_OFF', 'Off');
-define('_DB_QUERY_ERROR', 'Query Failed! SQL: %s - Error: ');
+define('_OFF', 'Disattivato');
+define('_DB_QUERY_ERROR', 'Query fallita! SQL: %s - Errore: ');

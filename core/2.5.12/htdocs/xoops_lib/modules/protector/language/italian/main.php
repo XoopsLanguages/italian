@@ -1,8 +1,8 @@
 <?php
-define('_MD_PROTECTOR_YOUAREBADIP', 'You are registered as BAD_IP by Protector.<br>');
-define('_MD_PROTECTOR_FMT_JAILINFO', 'This restriction will be expired on %s');
+define('_MD_PROTECTOR_YOUAREBADIP', 'Sei registrato come BAD_IP da Protector.<br>');
+define('_MD_PROTECTOR_FMT_JAILINFO', 'Questa restrizione scadrà il %s');
 define('_MD_PROTECTOR_FMT_JAILTIME', 'Y-m-j H:i:s');
-define('_MD_PROTECTOR_BANDWIDTHLIMITED', 'This website is very busy now. Please try later.');
-define('_MD_PROTECTOR_TURNJAVASCRIPTON', 'Turn JavaScript ON');
-define('_MD_PROTECTOR_DENYBYRBL', 'Protector rejects your post, because your IP is registered in RBL');
-define('_MD_PROTECTOR_FMT_REGISTER_MORATORIUM', 'Post it again %s minutes later(for Anti-SPAMMING, sorry).');
+define('_MD_PROTECTOR_BANDWIDTHLIMITED', 'Questo sito web è attualmente molto occupato. Per favore, riprova più tardi.');
+define('_MD_PROTECTOR_TURNJAVASCRIPTON', 'Attiva JavaScript');
+define('_MD_PROTECTOR_DENYBYRBL', 'Protector rifiuta il tuo post perché il tuo IP è registrato in RBL');
+define('_MD_PROTECTOR_FMT_REGISTER_MORATORIUM', 'Invialo di nuovo tra %s minuti (per misure anti-SPAM, ci scusiamo).');

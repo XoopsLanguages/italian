@@ -1,21 +1,20 @@
-Hello {X_UNAME},
+Ciao {X_UNAME},
 
-Thank you for registering as a member of {SITENAME}. As a registered member your can:
-- Send private messages among members
-- Participate in discussion boards
-- Get the latest news
-- Submit content
-- Much, much more....
+Grazie per esserti registrato come membro di {SITENAME}. Come membro registrato puoi:
+- Inviare messaggi privati tra i membri
+- Partecipare alle discussioni nei forum
+- Ricevere le ultime notizie
+- Inviare contenuti
+- E molto, molto altro...
 
-The email address ({X_UEMAIL}) has been used to create a user profile for you.
+L'indirizzo email ({X_UEMAIL}) è stato utilizzato per creare un profilo utente per te.
 
-To become a member of {SITENAME}, please confirm your
-request by clicking on the link below:
+Per diventare un membro di {SITENAME}, conferma la tua richiesta cliccando sul link sottostante:
 
 {X_UACTLINK}
 
 -----------
-Best Regards
+Cordiali saluti
 {SITENAME}
-({SITEURL}) 
+({SITEURL})
 {ADMINMAIL}

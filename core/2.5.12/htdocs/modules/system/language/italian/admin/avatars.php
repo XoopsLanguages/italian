@@ -6,26 +6,26 @@
  * _CHARSET     UTF-8
  */
 // Navigation
-define('_AM_SYSTEM_AVATAR_MANAGER', 'Avatars Management');
-define('_AM_SYSTEM_AVATAR_MAIN', 'Main');
-define('_AM_SYSTEM_AVATAR_SYSTEM', 'System Avatars');
-define('_AM_SYSTEM_AVATAR_CUSTOM', 'Custom Avatars');
-define('_AM_SYSTEM_AVATAR_ADD', 'Add Avatar');
-define('_AM_SYSTEM_AVATAR_EDIT', 'Edit Avatar');
-define('_AM_SYSTEM_AVATAR_DELETE', 'Delete Avatar');
+define('_AM_SYSTEM_AVATAR_MANAGER', 'Gestione Avatar');
+define('_AM_SYSTEM_AVATAR_MAIN', 'Principale');
+define('_AM_SYSTEM_AVATAR_SYSTEM', 'Avatar di Sistema');
+define('_AM_SYSTEM_AVATAR_CUSTOM', 'Avatar Personalizzati');
+define('_AM_SYSTEM_AVATAR_ADD', 'Aggiungi Avatar');
+define('_AM_SYSTEM_AVATAR_EDIT', 'Modifica Avatar');
+define('_AM_SYSTEM_AVATAR_DELETE', 'Elimina Avatar');
 // Main
-define('_AM_SYSTEM_AVATAR_MULTIUPLOAD', 'Multi uploads');
+define('_AM_SYSTEM_AVATAR_MULTIUPLOAD', 'Caricamenti multipli');
 // Infos
-define('_AM_SYSTEM_AVATAR_ERROR', 'Errors');
-define('_AM_SYSTEM_AVATAR_USERS', 'Users using this avatar');
-define('_AM_SYSTEM_AVATAR_USE_FILE', 'Choose files in: %s');
-define('_AM_SYSTEM_AVATAR_UPLOAD', 'Upload:');
+define('_AM_SYSTEM_AVATAR_ERROR', 'Errori');
+define('_AM_SYSTEM_AVATAR_USERS', 'Utenti che utilizzano questo avatar');
+define('_AM_SYSTEM_AVATAR_USE_FILE', 'Scegli i file in: %s');
+define('_AM_SYSTEM_AVATAR_UPLOAD', 'Carica:');
 // Messages
-define('_AM_SYSTEM_AVATAR_FAILDEL', 'Failed deleting avatar %s from the database');
-define('_AM_SYSTEM_AVATAR_SUREDEL', 'Are you sure to delete this avatar image?');
+define('_AM_SYSTEM_AVATAR_FAILDEL', 'Eliminazione dell\'avatar %s dal database fallita');
+define('_AM_SYSTEM_AVATAR_SUREDEL', 'Sei sicuro di voler eliminare questa immagine avatar?');
 // Tips
 define('_AM_SYSTEM_AVATAR_TIPS', "
 <ul id='newsticker' class='newsticker'>
-<li>Manage all System or Custom avatars</li>
-<li>Site members can optionally create their own online personality called avatars.<br>This option can be turned off from System User preferences.</li>
+<li>Gestisci tutti gli avatar di sistema o personalizzati</li>
+<li>I membri del sito possono opzionalmente creare la propria personalità online chiamata avatar.<br>Questa opzione può essere disattivata dalle preferenze utente di sistema.</li>
 </ul>");

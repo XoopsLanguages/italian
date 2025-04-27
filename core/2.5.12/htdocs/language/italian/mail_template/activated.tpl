@@ -1,12 +1,12 @@
-Hello {X_UNAME},
+Ciao {X_UNAME},
 
-Your new profile at {SITENAME} has been activated by the administrator.
+Il tuo nuovo profilo su {SITENAME} è stato attivato dall'amministratore.
 
-You can now login from the following URL with the password you have submitted at registration.
+Ora puoi accedere dal seguente URL con la password che hai fornito durante la registrazione.
 
 {SITEURL}user.php
 
 -----------
-{SITENAME} ({SITEURL}) 
+{SITENAME} ({SITEURL})
 webmaster
 {ADMINMAIL}

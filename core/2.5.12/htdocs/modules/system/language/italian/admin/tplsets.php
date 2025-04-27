@@ -6,37 +6,37 @@
  * _CHARSET     UTF-8
  */
 //Nav
-define('_AM_SYSTEM_TEMPLATES_NAV_MANAGER', 'Templates Manager');
-define('_AM_SYSTEM_TEMPLATES_NAV_MAIN', 'Templates Manager');
+define('_AM_SYSTEM_TEMPLATES_NAV_MANAGER', 'Gestione Template');
+define('_AM_SYSTEM_TEMPLATES_NAV_MAIN', 'Gestione Template');
 //Tips
 define('_AM_SYSTEM_TEMPLATES_NAV_TIPS', '
 <ul>
-<li>Edit theme and modules templates, stylesheet online.</li>
-<li>Generate all override modules templates.</li>
-<li>If you force generation, this will erase all previous modification.</li>
+<li>Modifica online i template del tema e dei moduli, il foglio di stile.</li>
+<li>Genera tutti i template dei moduli sovrascritti.</li>
+<li>Se forzi la generazione, questo cancellerà tutte le modifiche precedenti.</li>
 </ul>
 ');
-define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES', 'Your themes :');
-define('_AM_SYSTEM_TEMPLATES_GENERATE', 'Generated surcharge');
-define('_AM_SYSTEM_TEMPLATES_SELECT_THEME', 'Select theme');
-define('_AM_SYSTEM_TEMPLATES_FORCE_GENERATED', 'Forced file generation');
-define('_AM_SYSTEM_TEMPLATES_NAV_FILE_GENERATED', 'Files generated');
-define('_AM_SYSTEM_TEMPLATES_NOT_CREATED', 'No files created');
-define('_AM_SYSTEM_TEMPLATES_SAVE', 'Save');
-define('_AM_SYSTEM_TEMPLATES_RESTORE', 'Restore');
-define('_AM_SYSTEM_TEMPLATES_CANCEL', 'Cancel');
-define('_AM_SYSTEM_TEMPLATES_ERROR', 'Error');
-define('_AM_SYSTEM_TEMPLATES_EDIT', 'Edit of :');
-define('_AM_SYSTEM_TEMPLATES_SELECT_MODULES', 'Select Module');
-define('_AM_SYSTEM_TEMPLATES_MODULES', 'Modules : ');
-define('_AM_SYSTEM_TEMPLATES_FILES', 'Files');
-define('_AM_SYSTEM_TEMPLATES_EMPTY_FILE', 'Empty file');
-define('_AM_SYSTEM_TEMPLATES_TYPES', 'Types');
-define('_AM_SYSTEM_TEMPLATES_STATUS', 'Status');
-define('_AM_SYSTEM_TEMPLATES_TEMPLATES', 'Templates');
-define('_AM_SYSTEM_TEMPLATES_BLOCKS', 'Blocks');
-define('_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES', 'Select Templates');
-define('_AM_SYSTEM_TEMPLATES_ALL_MODULES', 'All modules');
-define('_AM_SYSTEM_TEMPLATES_RESTORE_OK', 'Successfully restored');
-define('_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK', 'Failed to restore');
-define('_AM_SYSTEM_TEMPLATES_SET', 'Choose Template');
+define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES', 'I tuoi temi:');
+define('_AM_SYSTEM_TEMPLATES_GENERATE', 'Sopratassa generata');
+define('_AM_SYSTEM_TEMPLATES_SELECT_THEME', 'Seleziona tema');
+define('_AM_SYSTEM_TEMPLATES_FORCE_GENERATED', 'Generazione forzata dei file');
+define('_AM_SYSTEM_TEMPLATES_NAV_FILE_GENERATED', 'File generati');
+define('_AM_SYSTEM_TEMPLATES_NOT_CREATED', 'Nessun file creato');
+define('_AM_SYSTEM_TEMPLATES_SAVE', 'Salva');
+define('_AM_SYSTEM_TEMPLATES_RESTORE', 'Ripristina');
+define('_AM_SYSTEM_TEMPLATES_CANCEL', 'Annulla');
+define('_AM_SYSTEM_TEMPLATES_ERROR', 'Errore');
+define('_AM_SYSTEM_TEMPLATES_EDIT', 'Modifica di:');
+define('_AM_SYSTEM_TEMPLATES_SELECT_MODULES', 'Seleziona Modulo');
+define('_AM_SYSTEM_TEMPLATES_MODULES', 'Moduli: ');
+define('_AM_SYSTEM_TEMPLATES_FILES', 'File');
+define('_AM_SYSTEM_TEMPLATES_EMPTY_FILE', 'File vuoto');
+define('_AM_SYSTEM_TEMPLATES_TYPES', 'Tipi');
+define('_AM_SYSTEM_TEMPLATES_STATUS', 'Stato');
+define('_AM_SYSTEM_TEMPLATES_TEMPLATES', 'Template');
+define('_AM_SYSTEM_TEMPLATES_BLOCKS', 'Blocchi');
+define('_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES', 'Seleziona Template');
+define('_AM_SYSTEM_TEMPLATES_ALL_MODULES', 'Tutti i moduli');
+define('_AM_SYSTEM_TEMPLATES_RESTORE_OK', 'Ripristinato con successo');
+define('_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK', 'Ripristino fallito');
+define('_AM_SYSTEM_TEMPLATES_SET', 'Scegli Template');

@@ -15,37 +15,37 @@
  * @author      Grégory Mage (Aka Mage)
  */
 // Info
-define('_AM_MODULEADMIN_CONFIG', 'Configuration Check');
-define('_AM_MODULEADMIN_CONFIG_CHMOD', "The folder '%s' must be with a chmod '%s' (it's now set on %s).");
-define('_AM_MODULEADMIN_CONFIG_FOLDERKO', "The folder '%s' does not exist");
-define('_AM_MODULEADMIN_CONFIG_FOLDEROK', "The folder '%s' exists");
-define('_AM_MODULEADMIN_CONFIG_PHP', 'Minimum PHP required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_XOOPS', 'Minimum XOOPS required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_DB', 'Minimum version required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_ADMIN', 'Minimum ModuleAdmin required: %s (your version is %s)');
+define('_AM_MODULEADMIN_CONFIG', 'Verifica della configurazione');
+define('_AM_MODULEADMIN_CONFIG_CHMOD', "La cartella '%s' deve avere un chmod '%s' (attualmente è impostata su %s).");
+define('_AM_MODULEADMIN_CONFIG_FOLDERKO', "La cartella '%s' non esiste");
+define('_AM_MODULEADMIN_CONFIG_FOLDEROK', "La cartella '%s' esiste");
+define('_AM_MODULEADMIN_CONFIG_PHP', 'PHP minimo richiesto: %s (la tua versione è %s)');
+define('_AM_MODULEADMIN_CONFIG_XOOPS', 'XOOPS minimo richiesto: %s (la tua versione è %s)');
+define('_AM_MODULEADMIN_CONFIG_DB', 'Versione minima richiesta: %s (la tua versione è %s)');
+define('_AM_MODULEADMIN_CONFIG_ADMIN', 'Modulo Admin minimo richiesto: %s (la tua versione è %s)');
 // About
-define('_AM_MODULEADMIN_ABOUT_CHANGELOG', 'Change log');
-define('_AM_MODULEADMIN_ABOUT_AMOUNT', 'Amount');
-define('_AM_MODULEADMIN_ABOUT_AMOUNT_TTL', 'Please enter USD amount e.g. $25.00');
+define('_AM_MODULEADMIN_ABOUT_CHANGELOG', 'Registro delle modifiche');
+define('_AM_MODULEADMIN_ABOUT_AMOUNT', 'Importo');
+define('_AM_MODULEADMIN_ABOUT_AMOUNT_TTL', 'Inserisci l\'importo in USD, ad esempio $25.00');
 define('_AM_MODULEADMIN_ABOUT_AMOUNT_CURRENCY', 'USD');
 define('_AM_MODULEADMIN_ABOUT_AMOUNT_SUGGESTED', '25.00');
 define('_AM_MODULEADMIN_ABOUT_AMOUNT_PATTERN', '\\$?[0-9]+(,[0-9]{3})*(\\.[0-9]{0,2})?$');
-define('_AM_MODULEADMIN_ABOUT_DONATE_IMG_ALT', 'Donate using PayPal or a major credit card online!');
-define('_AM_MODULEADMIN_ABOUT_DESCRIPTION', 'Description');
-define('_AM_MODULEADMIN_ABOUT_MODULEINFO', 'Module Info');
-define('_AM_MODULEADMIN_ABOUT_MODULESTATUS', 'Status');
-define('_AM_MODULEADMIN_ABOUT_UPDATEDATE', 'Updated');
-define('_AM_MODULEADMIN_ABOUT_WEBSITE', 'Website');
-define('_AM_MODULEADMIN_ABOUT_RELEASEDATE', 'Released: ');
-define('_AM_MODULEADMIN_ABOUT_AUTHOR', 'Author: ');
-define('_AM_MODULEADMIN_ABOUT_BY', 'by ');
-define('_AM_MODULEADMIN_ABOUT_CREDITS', 'Credits: ');
-define('_AM_MODULEADMIN_ABOUT_LICENSE', 'License: ');
-define('_AM_MODULEADMIN_ABOUT_AUTHOR_NAME', 'Author name: ');
-define('_AM_MODULEADMIN_ABOUT_AUTHOR_INFO', 'Author Info');
+define('_AM_MODULEADMIN_ABOUT_DONATE_IMG_ALT', 'Dona tramite PayPal o una carta di credito principale online!');
+define('_AM_MODULEADMIN_ABOUT_DESCRIPTION', 'Descrizione');
+define('_AM_MODULEADMIN_ABOUT_MODULEINFO', 'Informazioni sul modulo');
+define('_AM_MODULEADMIN_ABOUT_MODULESTATUS', 'Stato');
+define('_AM_MODULEADMIN_ABOUT_UPDATEDATE', 'Aggiornato');
+define('_AM_MODULEADMIN_ABOUT_WEBSITE', 'Sito web');
+define('_AM_MODULEADMIN_ABOUT_RELEASEDATE', 'Rilasciato: ');
+define('_AM_MODULEADMIN_ABOUT_AUTHOR', 'Autore: ');
+define('_AM_MODULEADMIN_ABOUT_BY', 'da ');
+define('_AM_MODULEADMIN_ABOUT_CREDITS', 'Crediti: ');
+define('_AM_MODULEADMIN_ABOUT_LICENSE', 'Licenza: ');
+define('_AM_MODULEADMIN_ABOUT_AUTHOR_NAME', 'Nome dell\'autore: ');
+define('_AM_MODULEADMIN_ABOUT_AUTHOR_INFO', 'Informazioni sull\'autore');
 define('_AM_MODULEADMIN_HOME', 'Home');
 define('_AM_MODULEADMIN_DASHBOARD', 'Dashboard');
-define('_AM_MODULEADMIN_ABOUT', 'About');
-define('_AM_MODULEADMIN_PERMISSIONS', 'Permissions');
+define('_AM_MODULEADMIN_ABOUT', 'Informazioni');
+define('_AM_MODULEADMIN_PERMISSIONS', 'Permessi');
 //ModuleAdmin
-define('_AM_MODULEADMIN_ADMIN_FOOTER', "<div class='center smallsmall italic pad5'>This module is maintained by the <a class='tooltip' rel='external' href='https://xoops.org/' title='Visit XOOPS Community'>XOOPS Community</a></div>");
+define('_AM_MODULEADMIN_ADMIN_FOOTER', "<div class='center smallsmall italic pad5'>Questo modulo è mantenuto dalla <a class='tooltip' rel='external' href='https://xoops.org/' title='Visita la comunità XOOPS'>Comunità XOOPS</a></div>");

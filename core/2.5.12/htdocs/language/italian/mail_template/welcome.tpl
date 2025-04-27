@@ -1,15 +1,14 @@
-Hello {X_UNAME},
+Ciao {X_UNAME},
 
-
-You have been successfully registered at {X_SITENAME} using user name of "{X_UNAME}".
-You are welcome to visit {X_SITENAME} at: {X_SITEURL}
+Sei stato registrato con successo su {X_SITENAME} con il nome utente "{X_UNAME}".
+Sei il benvenuto a visitare {X_SITENAME} al seguente indirizzo: {X_SITEURL}
 
 {TERMSOFUSE}
 
-In case you have any problem or inconvenience using "{X_SITENAME}", please feel free to contact us: {X_ADMINMAIL}
+Nel caso tu abbia qualche problema o inconveniente nell'utilizzare "{X_SITENAME}", sentiti libero di contattarci: {X_ADMINMAIL}
 
-Best regards,
+Cordiali saluti,
 
 -----------
-{X_SITENAME}: {X_SITEURL} 
+{X_SITENAME}: {X_SITEURL}
 webmaster: {X_ADMINMAIL}

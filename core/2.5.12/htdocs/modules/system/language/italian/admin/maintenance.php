@@ -6,57 +6,57 @@
  * _CHARSET     UTF-8
  */
 //Nav
-define('_AM_SYSTEM_MAINTENANCE_NAV_MANAGER', 'Maintenance');
-define('_AM_SYSTEM_MAINTENANCE_NAV_LIST', 'All maintenance');
-define('_AM_SYSTEM_MAINTENANCE_NAV_DUMP', 'Dump');
-define('_AM_SYSTEM_MAINTENANCE_SESSION', 'Empty the sessions table');
-define('_AM_SYSTEM_MAINTENANCE_SESSION_OK', 'Session maintenance : OK');
-define('_AM_SYSTEM_MAINTENANCE_SESSION_NOTOK', 'Session maintenance : Error');
-define('_AM_SYSTEM_MAINTENANCE_AVATAR', 'Purge unused custom avatars');
-define('_AM_SYSTEM_MAINTENANCE_CACHE', 'Clean cache folder');
-define('_AM_SYSTEM_MAINTENANCE_CACHE_OK', 'Cache maintenance : OK');
-define('_AM_SYSTEM_MAINTENANCE_CACHE_NOTOK', 'Cache maintenance : Error');
-define('_AM_SYSTEM_MAINTENANCE_TABLES', 'Tables maintenance');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_OK', 'Tables maintenance : OK');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_NOTOK', 'Tables maintenance : Error');
-define('_AM_SYSTEM_MAINTENANCE_QUERY_DESC', 'Optimize, Check, Repair and Analyze your tables');
-define('_AM_SYSTEM_MAINTENANCE_QUERY_OK', 'Maintain database : OK');
-define('_AM_SYSTEM_MAINTENANCE_QUERY_NOTOK', 'Maintain database : Error');
-define('_AM_SYSTEM_MAINTENANCE_CHOICE1', 'Optimize table(s)');
-define('_AM_SYSTEM_MAINTENANCE_CHOICE2', 'Check table(s)');
-define('_AM_SYSTEM_MAINTENANCE_CHOICE3', 'Repair table(s)');
-define('_AM_SYSTEM_MAINTENANCE_CHOICE4', 'Analyze table(s)');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_DESC', 'ANALYZE TABLE analyzes and stores the key distribution for a table. During the analysis, the table is locked with a read lock.<br>
-CHECK TABLE checks a table or tables for errors.<br>
-OPTIMIZE TABLE to reclaim the unused space and to defragment the data file.<br>
-REPAIR TABLE repairs a possibly corrupted table.');
-define('_AM_SYSTEM_MAINTENANCE_RESULT', 'Result');
-define('_AM_SYSTEM_MAINTENANCE_RESULT_NO_RESULT', 'Not Result');
-define('_AM_SYSTEM_MAINTENANCE_RESULT_CACHE', 'Clean Cache task');
-define('_AM_SYSTEM_MAINTENANCE_RESULT_SESSION', 'Clean sessions table task');
-define('_AM_SYSTEM_MAINTENANCE_RESULT_QUERY', 'Database task');
-define('_AM_SYSTEM_MAINTENANCE_RESULT_AVATAR', 'Purge unused avatars task');
-define('_AM_SYSTEM_MAINTENANCE_ERROR_MAINTENANCE', 'No choice for maintenance');
-define('_AM_SYSTEM_MAINTENANCE_TABLES1', 'Tables');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_OPTIMIZE', 'Optimize');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_CHECK', 'Check');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_REPAIR', 'Repair');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE', 'Analyze');
+define('_AM_SYSTEM_MAINTENANCE_NAV_MANAGER', 'Manutenzione');
+define('_AM_SYSTEM_MAINTENANCE_NAV_LIST', 'Tutta la manutenzione');
+define('_AM_SYSTEM_MAINTENANCE_NAV_DUMP', 'Scarica');
+define('_AM_SYSTEM_MAINTENANCE_SESSION', 'Svuota la tabella delle sessioni');
+define('_AM_SYSTEM_MAINTENANCE_SESSION_OK', 'Manutenzione sessioni: OK');
+define('_AM_SYSTEM_MAINTENANCE_SESSION_NOTOK', 'Manutenzione sessioni: Errore');
+define('_AM_SYSTEM_MAINTENANCE_AVATAR', 'Elimina gli avatar personalizzati non utilizzati');
+define('_AM_SYSTEM_MAINTENANCE_CACHE', 'Pulisci la cartella della cache');
+define('_AM_SYSTEM_MAINTENANCE_CACHE_OK', 'Manutenzione cache: OK');
+define('_AM_SYSTEM_MAINTENANCE_CACHE_NOTOK', 'Manutenzione cache: Errore');
+define('_AM_SYSTEM_MAINTENANCE_TABLES', 'Manutenzione tabelle');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_OK', 'Manutenzione tabelle: OK');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_NOTOK', 'Manutenzione tabelle: Errore');
+define('_AM_SYSTEM_MAINTENANCE_QUERY_DESC', 'Ottimizza, Controlla, Ripara e Analizza le tue tabelle');
+define('_AM_SYSTEM_MAINTENANCE_QUERY_OK', 'Manutenzione database: OK');
+define('_AM_SYSTEM_MAINTENANCE_QUERY_NOTOK', 'Manutenzione database: Errore');
+define('_AM_SYSTEM_MAINTENANCE_CHOICE1', 'Ottimizza tabella(e)');
+define('_AM_SYSTEM_MAINTENANCE_CHOICE2', 'Controlla tabella(e)');
+define('_AM_SYSTEM_MAINTENANCE_CHOICE3', 'Ripara tabella(e)');
+define('_AM_SYSTEM_MAINTENANCE_CHOICE4', 'Analizza tabella(e)');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_DESC', 'ANALYZE TABLE analizza e memorizza la distribuzione delle chiavi per una tabella. Durante l\'analisi, la tabella viene bloccata con un lock di lettura.<br>
+CHECK TABLE controlla una o più tabelle per errori.<br>
+OPTIMIZE TABLE per recuperare lo spazio inutilizzato e deframmentare il file di dati.<br>
+REPAIR TABLE ripara una tabella possibilmente danneggiata.');
+define('_AM_SYSTEM_MAINTENANCE_RESULT', 'Risultato');
+define('_AM_SYSTEM_MAINTENANCE_RESULT_NO_RESULT', 'Nessun Risultato');
+define('_AM_SYSTEM_MAINTENANCE_RESULT_CACHE', 'Pulizia cache');
+define('_AM_SYSTEM_MAINTENANCE_RESULT_SESSION', 'Pulizia tabella sessioni');
+define('_AM_SYSTEM_MAINTENANCE_RESULT_QUERY', 'Operazione database');
+define('_AM_SYSTEM_MAINTENANCE_RESULT_AVATAR', 'Eliminazione avatar non utilizzati');
+define('_AM_SYSTEM_MAINTENANCE_ERROR_MAINTENANCE', 'Nessuna scelta per la manutenzione');
+define('_AM_SYSTEM_MAINTENANCE_TABLES1', 'Tabelle');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_OPTIMIZE', 'Ottimizza');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_CHECK', 'Controlla');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_REPAIR', 'Ripara');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE', 'Analizza');
 //Dump
-define('_AM_SYSTEM_MAINTENANCE_DUMP', 'Dump');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES', 'Select tables or modules');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_DROP', "Add command DROP TABLE IF EXISTS 'tables' in the dump");
-define('_AM_SYSTEM_MAINTENANCE_DUMP_OR', 'OR');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_AND', 'AND');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES', 'You must select the tables or modules');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES', 'No tables');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_TABLES', 'Tables');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES', 'Structures');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS', 'Numbers of records');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED', 'File created');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_RESULT', 'Result');
+define('_AM_SYSTEM_MAINTENANCE_DUMP', 'Scarica');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES', 'Seleziona tabelle o moduli');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_DROP', "Aggiungi il comando DROP TABLE IF EXISTS 'tabelle' nello scarico");
+define('_AM_SYSTEM_MAINTENANCE_DUMP_OR', 'O');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_AND', 'E');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES', 'Devi selezionare le tabelle o i moduli');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES', 'Nessuna tabella');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_TABLES', 'Tabelle');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES', 'Strutture');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS', 'Numero di record');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED', 'File creato');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_RESULT', 'Risultato');
 define('_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS', 'record(s)');
 // Tips
 define('_AM_SYSTEM_MAINTENANCE_TIPS', '<ul>
-<li>You can do a simple maintenance of your XOOPS Installation: clear your cache and session table, and do maintenance of your tables</li>
+<li>Puoi eseguire una semplice manutenzione della tua installazione XOOPS: pulire la cache e la tabella delle sessioni ed eseguire la manutenzione delle tue tabelle</li>
 </ul>');

@@ -12,11 +12,11 @@
 /*
  * Assocated with editor_registry.php
  */
-// Name of the editor
+// Nome dell'editor
 define('_XOOPS_EDITOR_TINYMCE', 'TinyMCE');
-// The value must be the same as /tinymce/jscripts/langs/your_language_code, for example, "en" for English, "fr" for French
-// For details, check http://tinymce.moxiecode.com/download_i18n.php
-define('_XOOPS_EDITOR_TINYMCE_LANGUAGE', 'en');
-// FONT LIST, FORMAT: "Name=value1,value2;Name=value"
+// Il valore deve essere lo stesso di /tinymce/jscripts/langs/your_language_code, ad esempio, "en" per l'inglese, "fr" per il francese
+// Per i dettagli, consulta http://tinymce.moxiecode.com/download_i18n.php
+define('_XOOPS_EDITOR_TINYMCE_LANGUAGE', 'it');
+// LISTA DEI CARATTERI, FORMATO: "Nome=valore1,valore2;Nome=valore"
 define('_XOOPS_EDITOR_TINYMCE_FONTS', 'Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings');
-define('_FAILGETIMG', 'Failed to get image %s');
+define('_FAILGETIMG', 'Impossibile ottenere l\'immagine %s');

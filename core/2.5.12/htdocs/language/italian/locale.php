@@ -19,28 +19,28 @@
  * @author              Taiwen Jiang <phppp@users.sourceforge.net>
  * @todo                To be handled by i18n/l10n
  */
-defined('XOOPS_ROOT_PATH') || exit('Restricted access');
+defined('XOOPS_ROOT_PATH') || exit('Accesso ristretto');
 
-setlocale(LC_ALL, 'en_US');
+setlocale(LC_ALL, 'it_IT');
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","e","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"
-// insert double '\' before 't','r','n'
+// !!IMPORTANTE!! inserire '\' prima di ogni carattere tra i caratteri riservati: "a","A","B","c","d","D","e","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"
+// inserire '\\' prima di 't','r','n'
 define('_TODAY', "\T\o\d\a\y G:i");
 define('_YESTERDAY', "\Y\\e\s\\t\\e\\r\d\a\y G:i");
 define('_MONTHDAY', 'n/j G:i');
 define('_YEARMONTHDAY', 'Y/n/j G:i');
-define('_ELAPSE', '%s ago');
-define('_TIMEFORMAT_DESC', "Valid formats: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ';<br>' . "\"c\" or \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br>" . "specified string - Refer to <a href=\"https://php.net/manual/en/function.date.php\" rel=\"external\">PHP manual</a>.");
+define('_ELAPSE', '%s fa');
+define('_TIMEFORMAT_DESC', "Formati validi: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ';<br>' . "\"c\" o \"custom\" - formato determinato in base all\'intervallo; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br>" . "stringa specificata - Consulta <a href=\"https://php.net/manual/en/function.date.php\" rel=\"external\">manuale PHP</a>.");
 
 if (!class_exists('XoopsLocalAbstract')) {
     include_once XOOPS_ROOT_PATH . '/class/xoopslocal.php';
 }
 
 /**
- * A Xoops Local
+ * Una Localizzazione Xoops
  *
  * @package             kernel
- * @subpackage          Language
+ * @subpackage          Linguaggio
  *
  * @author              Taiwen Jiang <phppp@users.sourceforge.net>
  * @copyright       (c) 2000-2016 XOOPS Project (www.xoops.org)
@@ -48,7 +48,7 @@ if (!class_exists('XoopsLocalAbstract')) {
 class XoopsLocal extends XoopsLocalAbstract
 {
     /**
-     * Number Formats
+     * Formati numerici
      *
      * @param  unknown_type $number
      * @return mixed
@@ -59,7 +59,7 @@ class XoopsLocal extends XoopsLocalAbstract
     }
 
     /**
-     * Money Format
+     * Formato monetario
      *
      * @param  string $format
      * @param  string $number
@@ -67,7 +67,7 @@ class XoopsLocal extends XoopsLocalAbstract
      */
     public function money_format($format, $number)
     {
-        setlocale(LC_MONETARY, 'en_US');
+        setlocale(LC_MONETARY, 'it_IT');
 
         return money_format($format, $number);
     }

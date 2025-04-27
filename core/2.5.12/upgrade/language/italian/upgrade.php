@@ -3,37 +3,37 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('_XOOPS_UPGRADE', 'XOOPS System Upgrade');
-define('_CHECKING_APPLIED', 'Checking applied upgrades:');
-define('_SET_FILES_WRITABLE', 'Make the following files writable before proceeding:');
-define('_NO_NEED_UPGRADE', 'No upgrade necessary. Please %s and remove this folder from your server');
-define('_NEED_UPGRADE', 'Upgrade needed');
-define('_PROCEED_UPGRADE', 'Proceed to upgrade');
-define('_PERFORMING_UPGRADE', 'Applied patch %s');
+define('_XOOPS_UPGRADE', 'Aggiornamento del Sistema XOOPS');
+define('_CHECKING_APPLIED', 'Verifica degli aggiornamenti applicati:');
+define('_SET_FILES_WRITABLE', 'Rendi scrivibili i seguenti file prima di procedere:');
+define('_NO_NEED_UPGRADE', 'Nessun aggiornamento necessario. Per favore %s e rimuovi questa cartella dal tuo server');
+define('_NEED_UPGRADE', 'Aggiornamento necessario');
+define('_PROCEED_UPGRADE', 'Procedi con l\'aggiornamento');
+define('_PERFORMING_UPGRADE', 'Patch %s applicata');
 
-define('_USER_LOGIN', 'Login Required');
+define('_USER_LOGIN', 'Accesso Richiesto');
 
-define('_MANUAL_INSTRUCTIONS', 'Manual installation instructions');
+define('_MANUAL_INSTRUCTIONS', 'Istruzioni per l\'installazione manuale');
 
 // %s is filename
-define('_FAILED_PATCH', 'Failed to patch %s');
-define('_APPLY_NEXT', 'Apply next upgrade (%s)');
-define('_COPY_RED_LINES', 'Copy the following red lines to %s');
+define('_FAILED_PATCH', 'Impossibile applicare la patch a %s');
+define('_APPLY_NEXT', 'Applica il prossimo aggiornamento (%s)');
+define('_COPY_RED_LINES', 'Copia le seguenti righe rosse in %s');
 
-define('_FINISH', 'Finish');
-define('_RELOAD', 'Reload');
+define('_FINISH', 'Fine');
+define('_RELOAD', 'Ricarica');
 
 define('_UPGRADE_CHARSET', 'UTF-8');
-define('_UPDATE_SYSTEM_MODULE', 'update system module');
+define('_UPDATE_SYSTEM_MODULE', 'aggiorna il modulo di sistema');
 
-define('_LANGUAGE', 'Language');
-define('_SUPPORT', 'Support');
-define('_XOOPS_SOURCE_CODE', 'XOOPS on GitHub');
-define('_PATCH_COUNT', 'Patch Sets');
-define('_USERNAME_PLACEHOLDER', 'Your Username');
-define('_PASSWORD_PLACEHOLDER', 'Your Password');
-define('_CONTINUE', 'Continue');
+define('_LANGUAGE', 'Lingua');
+define('_SUPPORT', 'Supporto');
+define('_XOOPS_SOURCE_CODE', 'XOOPS su GitHub');
+define('_PATCH_COUNT', 'Set di Patch');
+define('_USERNAME_PLACEHOLDER', 'Il tuo Nome Utente');
+define('_PASSWORD_PLACEHOLDER', 'La tua Password');
+define('_CONTINUE', 'Continua');
 
-define('XOOPS_ERROR_ENCOUNTERED', 'Error');
-define('XOOPS_ERROR_SEE_BELOW', 'See below for messages.');
-define('_FILE_ACCESS_ERROR', 'Could not access the file %s');
+define('XOOPS_ERROR_ENCOUNTERED', 'Errore');
+define('XOOPS_ERROR_SEE_BELOW', 'Vedi sotto per i messaggi.');
+define('_FILE_ACCESS_ERROR', 'Impossibile accedere al file %s');

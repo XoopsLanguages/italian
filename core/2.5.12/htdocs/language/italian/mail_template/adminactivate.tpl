@@ -1,11 +1,12 @@
-Hello {X_UNAME},
+Ciao {X_UNAME},
 
-A new user {USERNAME} ({USEREMAIL}) has just created a profile at {SITENAME}.
-Clicking on the link below will activate the profile of this user:
+Un nuovo utente {USERNAME} ({USEREMAIL}) ha appena creato un profilo su {SITENAME}.
+Cliccando sul link sottostante, attiverai il profilo di questo utente:
 
 {USERACTLINK}
 
 -----------
-{SITENAME} ({SITEURL}) 
+
+{SITENAME} ({SITEURL})
 webmaster
 {ADMINMAIL}

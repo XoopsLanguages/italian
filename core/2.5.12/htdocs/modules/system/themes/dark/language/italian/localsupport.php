@@ -3,7 +3,7 @@
 
 $menu = [];
 
-// sample for English  support
+// esempio per il supporto in Italiano
 /*
 $menu[] = array(
     'link'      => 'https://xoops.org',
@@ -33,5 +33,6 @@ $menu[] = array(
     'icon'      => XOOPS_ADMINTHEME_URL . '/default/images/xoops.png'
 );
 */
+
 
 return $menu;

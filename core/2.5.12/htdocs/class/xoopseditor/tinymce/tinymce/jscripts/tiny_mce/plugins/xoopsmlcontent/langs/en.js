@@ -1,8 +1,8 @@
 /**
  */
 
-tinyMCE.addI18n('en.xoopsmlcontent',{
-    desc : 'Insert multi-language content',
+tinyMCE.addI18n('it.xoopsmlcontent',{
+    desc : 'Inserisci contenuto multilingua',
     delta_width : '0',
     delta_height : '0'
 });

@@ -6,30 +6,30 @@
  * _CHARSET     UTF-8
  */
 //Nav
-define('_AM_SYSTEM_USERRANK_NAV_MANAGER', 'Ranks Manager');
-define('_AM_SYSTEM_USERRANK_NAV_MAIN', 'Ranks list');
-define('_AM_SYSTEM_USERRANK_NAV_ADD', 'Add a new rank');
-define('_AM_SYSTEM_USERRANK_NAV_EDIT', 'Edit rank');
-define('_AM_SYSTEM_USERRANK_NAV_DELETE', 'Delete rank');
-define('_AM_SYSTEM_USERRANK_ACTION', 'Action');
-define('_AM_SYSTEM_USERRANK_ADD', 'Add a new rank');
-define('_AM_SYSTEM_USERRANK_DELETE', 'Delete rank');
-define('_AM_SYSTEM_USERRANK_EDIT', 'Edit rank');
-define('_AM_SYSTEM_USERRANK_IMAGE', 'Image');
-define('_AM_SYSTEM_USERRANK_IMAGE_PATH', 'Files exist in: %s');
-define('_AM_SYSTEM_USERRANK_MAXPOST', 'Max. Posts');
-define('_AM_SYSTEM_USERRANK_MINPOST', 'Min. Posts');
-define('_AM_SYSTEM_USERRANK_OFF', 'Special rank');
-define('_AM_SYSTEM_USERRANK_ON', 'No special rank');
+define('_AM_SYSTEM_USERRANK_NAV_MANAGER', 'Gestione Gradi Utente');
+define('_AM_SYSTEM_USERRANK_NAV_MAIN', 'Elenco Gradi');
+define('_AM_SYSTEM_USERRANK_NAV_ADD', 'Aggiungi un nuovo grado');
+define('_AM_SYSTEM_USERRANK_NAV_EDIT', 'Modifica grado');
+define('_AM_SYSTEM_USERRANK_NAV_DELETE', 'Elimina grado');
+define('_AM_SYSTEM_USERRANK_ACTION', 'Azione');
+define('_AM_SYSTEM_USERRANK_ADD', 'Aggiungi un nuovo grado');
+define('_AM_SYSTEM_USERRANK_DELETE', 'Elimina grado');
+define('_AM_SYSTEM_USERRANK_EDIT', 'Modifica grado');
+define('_AM_SYSTEM_USERRANK_IMAGE', 'Immagine');
+define('_AM_SYSTEM_USERRANK_IMAGE_PATH', 'I file esistono in: %s');
+define('_AM_SYSTEM_USERRANK_MAXPOST', 'Max. Messaggi');
+define('_AM_SYSTEM_USERRANK_MINPOST', 'Min. Messaggi');
+define('_AM_SYSTEM_USERRANK_OFF', 'Grado speciale');
+define('_AM_SYSTEM_USERRANK_ON', 'Nessun grado speciale');
 define('_AM_SYSTEM_USERRANK_SAVE', _AM_SYSTEM_DBUPDATED);
-define('_AM_SYSTEM_USERRANK_SPECIAL', 'Special Ranks');
-define('_AM_SYSTEM_USERRANK_SPECIAL_CAN', '(Special ranks can be assigned to users irrespective of the number of user posts)');
-define('_AM_SYSTEM_USERRANK_SUREDEL', 'Are you sure you want to delete this ranking?');
-define('_AM_SYSTEM_USERRANK_TITLE', 'Title');
-define('_AM_SYSTEM_USERRANK_UPLOAD', 'Upload');
+define('_AM_SYSTEM_USERRANK_SPECIAL', 'Gradi Speciali');
+define('_AM_SYSTEM_USERRANK_SPECIAL_CAN', '(I gradi speciali possono essere assegnati agli utenti indipendentemente dal numero di messaggi utente)');
+define('_AM_SYSTEM_USERRANK_SUREDEL', 'Sei sicuro di voler eliminare questa classificazione?');
+define('_AM_SYSTEM_USERRANK_TITLE', 'Titolo');
+define('_AM_SYSTEM_USERRANK_UPLOAD', 'Carica');
 // Tips
-define('_AM_SYSTEM_USERRANK_TIPS', '<ul><li>Add, update or delete user rank</li></ul>');
-define('_AM_SYSTEM_USERRANK_TIPS_FORM1', '<ul><li>Authorized mime types: %s</li>');
-define('_AM_SYSTEM_USERRANK_TIPS_FORM2', '<li>Max uploaded files size: %s KB</li></ul>');
+define('_AM_SYSTEM_USERRANK_TIPS', '<ul><li>Aggiungi, aggiorna o elimina il grado utente</li></ul>');
+define('_AM_SYSTEM_USERRANK_TIPS_FORM1', '<ul><li>Tipi mime autorizzati: %s</li>');
+define('_AM_SYSTEM_USERRANK_TIPS_FORM2', '<li>Dimensione massima dei file caricati: %s KB</li></ul>');
 // Errors
-define('_AM_SYSTEM_USERRANK_ERROR', 'Errors');
+define('_AM_SYSTEM_USERRANK_ERROR', 'Errori');

@@ -1,10 +1,10 @@
-Hello {X_UNAME},
+Ciao {X_UNAME},
 
-You email address at {SITENAME} has been successfully changed. 
+Il tuo indirizzo email su {SITENAME} è stato cambiato con successo.
 
-If you have any question, please feel free to contact us.
+Se hai domande, non esitare a contattarci.
 
 -----------
-{SITENAME} ({SITEURL}) 
+{SITENAME} ({SITEURL})
 webmaster
 {ADMINMAIL}

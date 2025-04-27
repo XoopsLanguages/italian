@@ -6,85 +6,85 @@
  * _CHARSET     UTF-8
  */
 // Navigation
-define('_AM_SYSTEM_BLOCKS_ADMIN', 'Blocks Administration');
-define('_AM_SYSTEM_BLOCKS_MANAGMENT', 'Manage');
-define('_AM_SYSTEM_BLOCKS_ADDBLOCK', 'Add a new block');
-define('_AM_SYSTEM_BLOCKS_EDITBLOCK', 'Edit a block');
-define('_AM_SYSTEM_BLOCKS_CLONEBLOCK', 'Clone a block');
+define('_AM_SYSTEM_BLOCKS_ADMIN', 'Amministrazione Blocchi');
+define('_AM_SYSTEM_BLOCKS_MANAGMENT', 'Gestisci');
+define('_AM_SYSTEM_BLOCKS_ADDBLOCK', 'Aggiungi un nuovo blocco');
+define('_AM_SYSTEM_BLOCKS_EDITBLOCK', 'Modifica un blocco');
+define('_AM_SYSTEM_BLOCKS_CLONEBLOCK', 'Clona un blocco');
 // Forms
-define('_AM_SYSTEM_BLOCKS_CUSTOM', 'Custom Block');
-define('_AM_SYSTEM_BLOCKS_TYPES', 'All types');
-define('_AM_SYSTEM_BLOCKS_GENERATOR', 'Modules');
-define('_AM_SYSTEM_BLOCKS_GROUP', 'Groups');
-define('_AM_SYSTEM_BLOCKS_SVISIBLEIN', 'Page');
-define('_AM_SYSTEM_BLOCKS_DISPLAY', 'Display block ');
-define('_AM_SYSTEM_BLOCKS_HIDE', 'Hide block ');
-define('_AM_SYSTEM_BLOCKS_CLONE', 'Clone');
-define('_AM_SYSTEM_BLOCKS_SIDELEFT', 'Left');
-define('_AM_SYSTEM_BLOCKS_SIDETOPLEFT', 'Top Left');
-define('_AM_SYSTEM_BLOCKS_SIDETOPCENTER', 'Top Center');
-define('_AM_SYSTEM_BLOCKS_SIDETOPRIGHT', 'Top Right');
-define('_AM_SYSTEM_BLOCKS_SIDERIGHT', 'Right');
-define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMLEFT', 'Bottom Left');
-define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMCENTER', 'Bottom Center');
-define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMRIGHT', 'Bottom Right');
+define('_AM_SYSTEM_BLOCKS_CUSTOM', 'Blocco Personalizzato');
+define('_AM_SYSTEM_BLOCKS_TYPES', 'Tutti i tipi');
+define('_AM_SYSTEM_BLOCKS_GENERATOR', 'Moduli');
+define('_AM_SYSTEM_BLOCKS_GROUP', 'Gruppi');
+define('_AM_SYSTEM_BLOCKS_SVISIBLEIN', 'Pagina');
+define('_AM_SYSTEM_BLOCKS_DISPLAY', 'Mostra blocco ');
+define('_AM_SYSTEM_BLOCKS_HIDE', 'Nascondi blocco ');
+define('_AM_SYSTEM_BLOCKS_CLONE', 'Clona');
+define('_AM_SYSTEM_BLOCKS_SIDELEFT', 'Sinistra');
+define('_AM_SYSTEM_BLOCKS_SIDETOPLEFT', 'Superiore Sinistra');
+define('_AM_SYSTEM_BLOCKS_SIDETOPCENTER', 'Superiore Centro');
+define('_AM_SYSTEM_BLOCKS_SIDETOPRIGHT', 'Superiore Destra');
+define('_AM_SYSTEM_BLOCKS_SIDERIGHT', 'Destra');
+define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMLEFT', 'Inferiore Sinistra');
+define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMCENTER', 'Inferiore Centro');
+define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMRIGHT', 'Inferiore Destra');
 
-define('_AM_SYSTEM_BLOCKS_SIDEFOOTERLEFT', 'Footer Left');
-define('_AM_SYSTEM_BLOCKS_SIDEFOOTERCENTER', 'Footer Center');
-define('_AM_SYSTEM_BLOCKS_SIDEFOOTERRIGHT', 'Footer Right');
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERLEFT', 'Footer Sinistra');
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERCENTER', 'Footer Centro');
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERRIGHT', 'Footer Destra');
 
-define('_AM_SYSTEM_BLOCKS_ADD', 'Add Block');
-define('_AM_SYSTEM_BLOCKS_MANAGE', 'Manage Block');
-define('_AM_SYSTEM_BLOCKS_NAME', 'Name');
-define('_AM_SYSTEM_BLOCKS_TYPE', 'Block Type');
-define('_AM_SYSTEM_BLOCKS_SBLEFT', 'Side Block - Left');
-define('_AM_SYSTEM_BLOCKS_SBRIGHT', 'Side Block - Right');
-define('_AM_SYSTEM_BLOCKS_CBLEFT', 'Center Block - Left');
-define('_AM_SYSTEM_BLOCKS_CBRIGHT', 'Center Block - Right');
-define('_AM_SYSTEM_BLOCKS_CBCENTER', 'Center Block - Center');
-define('_AM_SYSTEM_BLOCKS_CBBOTTOMLEFT', 'Center Block - Bottom left');
-define('_AM_SYSTEM_BLOCKS_CBBOTTOMRIGHT', 'Center Block - Bottom right');
+define('_AM_SYSTEM_BLOCKS_ADD', 'Aggiungi Blocco');
+define('_AM_SYSTEM_BLOCKS_MANAGE', 'Gestisci Blocco');
+define('_AM_SYSTEM_BLOCKS_NAME', 'Nome');
+define('_AM_SYSTEM_BLOCKS_TYPE', 'Tipo Blocco');
+define('_AM_SYSTEM_BLOCKS_SBLEFT', 'Blocco Laterale - Sinistra');
+define('_AM_SYSTEM_BLOCKS_SBRIGHT', 'Blocco Laterale - Destra');
+define('_AM_SYSTEM_BLOCKS_CBLEFT', 'Blocco Centrale - Sinistra');
+define('_AM_SYSTEM_BLOCKS_CBRIGHT', 'Blocco Centrale - Destra');
+define('_AM_SYSTEM_BLOCKS_CBCENTER', 'Blocco Centrale - Centro');
+define('_AM_SYSTEM_BLOCKS_CBBOTTOMLEFT', 'Blocco Centrale - Inferiore sinistra');
+define('_AM_SYSTEM_BLOCKS_CBBOTTOMRIGHT', 'Blocco Centrale - Inferiore destra');
 
-define('_AM_SYSTEM_BLOCKS_CBFOOTERLEFT', 'Footer Block - Left');
-define('_AM_SYSTEM_BLOCKS_CBFOOTERCENTER', 'Footer Block - Center');
-define('_AM_SYSTEM_BLOCKS_CBFOOTERRIGHT', 'Footer Block - Right');
+define('_AM_SYSTEM_BLOCKS_CBFOOTERLEFT', 'Blocco Footer - Sinistra');
+define('_AM_SYSTEM_BLOCKS_CBFOOTERCENTER', 'Blocco Footer - Centro');
+define('_AM_SYSTEM_BLOCKS_CBFOOTERRIGHT', 'Blocco Footer - Destra');
 
-define('_AM_SYSTEM_BLOCKS_CBBOTTOM', 'Center Block - Bottom');
-define('_AM_SYSTEM_BLOCKS_WEIGHT', 'Weight');
-define('_AM_SYSTEM_BLOCKS_VISIBLE', 'Visible');
-define('_AM_SYSTEM_BLOCKS_VISIBLEIN', 'Visible in');
-define('_AM_SYSTEM_BLOCKS_TOPPAGE', 'Top Page');
-define('_AM_SYSTEM_BLOCKS_ALLPAGES', 'All Pages');
-define('_AM_SYSTEM_BLOCKS_UNASSIGNED', 'Unassigned');
-define('_AM_SYSTEM_BLOCKS_TITLE', 'Title');
-define('_AM_SYSTEM_BLOCKS_CONTENT', 'Content');
-define('_AM_SYSTEM_BLOCKS_USEFULTAGS', 'Useful Tags:');
-define('_AM_SYSTEM_BLOCKS_BLOCKTAG', '%s will print %s');
-define('_AM_SYSTEM_BLOCKS_CTYPE', 'Content Type');
+define('_AM_SYSTEM_BLOCKS_CBBOTTOM', 'Blocco Centrale - Inferiore');
+define('_AM_SYSTEM_BLOCKS_WEIGHT', 'Peso');
+define('_AM_SYSTEM_BLOCKS_VISIBLE', 'Visibile');
+define('_AM_SYSTEM_BLOCKS_VISIBLEIN', 'Visibile in');
+define('_AM_SYSTEM_BLOCKS_TOPPAGE', 'Pagina Principale');
+define('_AM_SYSTEM_BLOCKS_ALLPAGES', 'Tutte le Pagine');
+define('_AM_SYSTEM_BLOCKS_UNASSIGNED', 'Non assegnato');
+define('_AM_SYSTEM_BLOCKS_TITLE', 'Titolo');
+define('_AM_SYSTEM_BLOCKS_CONTENT', 'Contenuto');
+define('_AM_SYSTEM_BLOCKS_USEFULTAGS', 'Tag Utili:');
+define('_AM_SYSTEM_BLOCKS_BLOCKTAG', '%s stamperà %s');
+define('_AM_SYSTEM_BLOCKS_CTYPE', 'Tipo Contenuto');
 define('_AM_SYSTEM_BLOCKS_HTML', 'HTML');
-define('_AM_SYSTEM_BLOCKS_PHP', 'PHP Script');
-define('_AM_SYSTEM_BLOCKS_AFWSMILE', 'Auto Format (smilies enabled)');
-define('_AM_SYSTEM_BLOCKS_AFNOSMILE', 'Auto Format (smilies disabled)');
-define('_AM_SYSTEM_BLOCKS_BCACHETIME', 'Cache lifetime');
-define('_AM_SYSTEM_BLOCKS_CUSTOMHTML', 'Custom Block (HTML)');
-define('_AM_SYSTEM_BLOCKS_CUSTOMPHP', 'Custom Block (PHP)');
-define('_AM_SYSTEM_BLOCKS_CUSTOMSMILE', 'Custom Block (Auto Format + smilies)');
-define('_AM_SYSTEM_BLOCKS_CUSTOMNOSMILE', 'Custom Block (Auto Format)');
-define('_AM_SYSTEM_BLOCKS_EDITTPL', 'Edit Template');
-define('_AM_SYSTEM_BLOCKS_OPTIONS', 'Options');
-define('_AM_SYSTEM_BLOCKS_DRAG', 'Drag or sort the block');
+define('_AM_SYSTEM_BLOCKS_PHP', 'Script PHP');
+define('_AM_SYSTEM_BLOCKS_AFWSMILE', 'Formattazione Automatica (smilies abilitati)');
+define('_AM_SYSTEM_BLOCKS_AFNOSMILE', 'Formattazione Automatica (smilies disabilitati)');
+define('_AM_SYSTEM_BLOCKS_BCACHETIME', 'Durata Cache');
+define('_AM_SYSTEM_BLOCKS_CUSTOMHTML', 'Blocco Personalizzato (HTML)');
+define('_AM_SYSTEM_BLOCKS_CUSTOMPHP', 'Blocco Personalizzato (PHP)');
+define('_AM_SYSTEM_BLOCKS_CUSTOMSMILE', 'Blocco Personalizzato (Formattazione Automatica + smilies)');
+define('_AM_SYSTEM_BLOCKS_CUSTOMNOSMILE', 'Blocco Personalizzato (Formattazione Automatica)');
+define('_AM_SYSTEM_BLOCKS_EDITTPL', 'Modifica Template');
+define('_AM_SYSTEM_BLOCKS_OPTIONS', 'Opzioni');
+define('_AM_SYSTEM_BLOCKS_DRAG', 'Trascina o ordina il blocco');
 // Messages
 define('_AM_SYSTEM_BLOCKS_DBUPDATED', _AM_SYSTEM_DBUPDATED);
-define('_AM_SYSTEM_BLOCKS_RUSUREDEL', 'Are you sure to delete this block ? <div class="bold">%s</div>');
-define('_AM_SYSTEM_BLOCKS_SYSTEMCANT', 'System blocks cannot be deleted!');
-define('_AM_SYSTEM_BLOCKS_MODULECANT', 'This block cannot be deleted directly! If you wish to disable this block, deactivate the module.');
+define('_AM_SYSTEM_BLOCKS_RUSUREDEL', 'Sei sicuro di voler eliminare questo blocco? <div class="bold">%s</div>');
+define('_AM_SYSTEM_BLOCKS_SYSTEMCANT', 'I blocchi di sistema non possono essere eliminati!');
+define('_AM_SYSTEM_BLOCKS_MODULECANT', 'Questo blocco non può essere eliminato direttamente! Se desideri disabilitare questo blocco, disattiva il modulo.');
 // Tips
 define('_AM_SYSTEM_BLOCKS_TIPS', '<ul>
-<li>You can easily change side or order position with the drag\'n drop, click on <img class="tooltip" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DRAG . '" title="' . _AM_SYSTEM_BLOCKS_DRAG . '" /> this image and set your site just the way you want it</li>
-<li>Add a new custom block</li>
-<li>Set block online or offline by clicking on <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DISPLAY . '" title="' . _AM_SYSTEM_BLOCKS_DISPLAY . '"/> or <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_HIDE . '" title="' . _AM_SYSTEM_BLOCKS_HIDE . '" /></li>
+<li>Puoi facilmente cambiare la posizione laterale o l\'ordine con il drag\'n drop, clicca su <img class="tooltip" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DRAG . '" title="' . _AM_SYSTEM_BLOCKS_DRAG . '" /> questa immagine e imposta il tuo sito proprio come lo desideri</li>
+<li>Aggiungi un nuovo blocco personalizzato</li>
+<li>Imposta il blocco online o offline cliccando su <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DISPLAY . '" title="' . _AM_SYSTEM_BLOCKS_DISPLAY . '"/> o <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_HIDE . '" title="' . _AM_SYSTEM_BLOCKS_HIDE . '" /></li>
 </ul>');
 
-define('_AM_SYSTEM_BLOCKS_FOOTER_LEFT', 'Footer Left');
-define('_AM_SYSTEM_BLOCKS_FOOTER_CENTER', 'Footer Center');
-define('_AM_SYSTEM_BLOCKS_FOOTER_RIGHT', 'Footer Right');
+define('_AM_SYSTEM_BLOCKS_FOOTER_LEFT', 'Footer Sinistra');
+define('_AM_SYSTEM_BLOCKS_FOOTER_CENTER', 'Footer Centro');
+define('_AM_SYSTEM_BLOCKS_FOOTER_RIGHT', 'Footer Destra');

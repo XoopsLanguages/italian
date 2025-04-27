@@ -4,52 +4,49 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 // License
-define('LICENSE_NOT_WRITEABLE', 'License is %s . <br><span style="color:#ff0000;">Make ../include/license.php Writable</span>');
-define('LICENSE_IS_WRITEABLE', 'License is %s');
-define('_INSTALL_WEBMASTER', 'Webmasters');
-define('_INSTALL_WEBMASTERD', 'Webmasters of this site');
-define('_INSTALL_REGUSERS', 'Registered Users');
-define('_INSTALL_REGUSERSD', 'Registered Users Group');
-define('_INSTALL_ANONUSERS', 'Anonymous Users');
-define('_INSTALL_ANONUSERSD', 'Anonymous Users Group');
+define('LICENSE_NOT_WRITEABLE', 'La licenza è %s . <br><span style="color:#ff0000;">Rendi scrivibile ../include/license.php</span>');
+define('LICENSE_IS_WRITEABLE', 'La licenza è %s');
+define('_INSTALL_WEBMASTER', 'Webmaster');
+define('_INSTALL_WEBMASTERD', 'Webmaster di questo sito');
+define('_INSTALL_REGUSERS', 'Utenti registrati');
+define('_INSTALL_REGUSERSD', 'Gruppo di utenti registrati');
+define('_INSTALL_ANONUSERS', 'Utenti anonimi');
+define('_INSTALL_ANONUSERSD', 'Gruppo di utenti anonimi');
 /**
- * New Group types
+ * Nuovi tipi di gruppo
  */
-define('_INSTALL_BANNEDUSERS', 'Banned Users');
-define('_INSTALL_BANNEDUSERSD', 'Banned user group');
-define('_INSTALL_MODERATORUSERS', 'Moderators');
-define('_INSTALL_MODERATORUSERSD', 'These are Moderators for your website');
-define('_INSTALL_SUBMITTERUSERS', 'Submitters');
-define('_INSTALL_SUBMITTERUSERSD', 'This group can submit articles to your website');
-define('_INSTALL_DEVELOPEUSERS', 'Developer');
-define('_INSTALL_DEVELOPEUSERSD', 'This user has developer privileges and can see developer debugging messages.');
-define('_INSTALL_L165', 'The site is currently closed for maintenance. Please come back later.');
-define('_INSTALL_ANON', 'Anonymous');
-define('_INSTALL_DISCLMR', 'While the administrators and moderators of this site will attempt to remove
-or edit any generally objectionable material as quickly as possible, it is
-impossible to review every message. Therefore you acknowledge that all posts
-made to this site express the views and opinions of the author and not the
-administrators, moderators or webmaster (except for posts by these people)
-and hence will not be held liable.
+define('_INSTALL_BANNEDUSERS', 'Utenti bannati');
+define('_INSTALL_BANNEDUSERSD', 'Gruppo di utenti bannati');
+define('_INSTALL_MODERATORUSERS', 'Moderatori');
+define('_INSTALL_MODERATORUSERSD', 'Questi sono i moderatori del tuo sito');
+define('_INSTALL_SUBMITTERUSERS', 'Sottomittenti');
+define('_INSTALL_SUBMITTERUSERSD', 'Questo gruppo può inviare articoli al tuo sito');
+define('_INSTALL_DEVELOPEUSERS', 'Sviluppatori');
+define('_INSTALL_DEVELOPEUSERSD', 'Questo utente ha privilegi di sviluppatore e può vedere i messaggi di debug per sviluppatori.');
+define('_INSTALL_L165', 'Il sito è attualmente chiuso per manutenzione. Torna più tardi.');
+define('_INSTALL_ANON', 'Anonimo');
+define('_INSTALL_DISCLMR', 'Sebbene gli amministratori e i moderatori di questo sito cerchino di rimuovere
+o modificare quanto prima eventuali contenuti generalmente offensivi, è
+impossibile esaminare ogni messaggio. Pertanto, riconosci che tutti i post
+inviati a questo sito esprimono le opinioni e i punti di vista dell\'autore e non degli
+amministratori, moderatori o webmaster (eccetto i post di queste persone)
+e pertanto non saranno ritenuti responsabili.
 
-You agree not to post any abusive, obscene, vulgar, slanderous, hateful,
-threatening, sexually-orientated or any other material that may violate any
-applicable laws. Doing so may lead to you being immediately and permanently
-banned (and your service provider being informed). The IP address of all
-posts is recorded to aid in enforcing these conditions. Creating multiple
-accounts for a single user is not allowed. You agree that the webmaster,
-administrator and moderators of this site have the right to remove, edit,
-move or close any topic at any time should they see fit. As a user you agree
-to any information you have entered above being stored in a database. While
-this information will not be disclosed to any third party without your
-consent the webmaster, administrator and moderators cannot be held
-responsible for any hacking attempt that may lead to the data being
-compromised.
+Accetti di non pubblicare materiale abusivo, osceno, volgare, diffamatorio, odioso,
+minaccioso, sessualmente orientato o qualsiasi altro materiale che possa violare qualsiasi
+legge applicabile. Farlo può comportare il ban immediato e permanente dell\'utente (e la notifica
+del provider di servizi). L\'indirizzo IP di tutti i post è registrato per aiutare nell\'applicazione di queste condizioni. La creazione di account multipli per un singolo utente non è consentita. Accetti che il webmaster,
+gli amministratori e i moderatori di questo sito abbiano il diritto di rimuovere, modificare,
+spostare o chiudere qualsiasi argomento in qualsiasi momento, se lo ritengono opportuno. Come utente, accetti
+che le informazioni che hai inserito sopra vengano memorizzate in un database. Sebbene
+queste informazioni non vengano divulgate a terzi senza il tuo
+consenso, il webmaster, gli amministratori e i moderatori non possono essere ritenuti
+responsabili per eventuali tentativi di hacking che possano compromettere i dati.
 
-This site system uses cookies to store information on your local computer.
-These cookies do not contain any of the information you have entered above,
-they serve only to improve your viewing pleasure. The email address is used
-only for confirming your registration details and password (and for sending
-new passwords should you forget your current one).
+Il sistema di questo sito utilizza i cookie per memorizzare informazioni sul tuo computer locale.
+Questi cookie non contengono nessuna delle informazioni che hai inserito sopra,
+servono solo a migliorare la tua esperienza di visualizzazione. L\'indirizzo email viene utilizzato
+solo per confermare i dettagli della tua registrazione e la password (e per inviare
+una nuova password nel caso tu dimentichi quella attuale).
 
-By clicking Register below you agree to be bound by these conditions.');
+Cliccando su Registrati qui sotto accetti di essere vincolato da queste condizioni.');

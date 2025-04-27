@@ -1,13 +1,13 @@
 /**
  */
 
-tinyMCE.addI18n('en.xoopsimagemanager',{
-    desc : 'Xoops Advanced Imagemanager',
+tinyMCE.addI18n('it.xoopsimagemanager',{
+    desc : 'Xoops Gestore Avanzato Immagini',
     delta_width : '0',
     delta_height : '0'
 });
-tinyMCE.addI18n('en.xoopsimagebrowser',{
-    desc : 'Xoops Imagebrowser',
+tinyMCE.addI18n('it.xoopsimagebrowser',{
+    desc : 'Xoops Browser Immagini',
     delta_width : '0',
     delta_height : '0'
 });
