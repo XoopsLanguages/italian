@@ -1,0 +1,63 @@
+{
+  "language": "italian",
+  "code": "it",
+  "name": "Italian",
+  "nativeName": "Italiano",
+  "rtl": false,
+  "maintainers": [
+    "XoopsLanguages Team"
+  ],
+  "core": {
+    "2.3.1": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.3.1.zip"
+    },
+    "2.3.3": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.3.3.zip"
+    },
+    "2.5.0": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.5.0.zip"
+    },
+    "2.5.1": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.5.1.zip"
+    },
+    "2.5.4": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.5.4.zip"
+    },
+    "2.5.5": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.5.5.zip"
+    },
+    "2.5.6": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.5.6.zip"
+    },
+    "2.5.7": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.5.7.zip"
+    },
+    "2.5.8": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.5.8.zip"
+    },
+    "2.5.9": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.5.9.zip"
+    },
+    "2.7.0": {
+      "lifecycle": "active",
+      "coverage": 99.7,
+      "provided": 3090,
+      "required": 3098,
+      "updated": "2026-05-04",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.7.0.zip",
+      "manifest_url": "https://raw.githubusercontent.com/XoopsLanguages/italian/master/manifest.json"
+    }
+  },
+  "modules": {},
+  "themes": {}
+}

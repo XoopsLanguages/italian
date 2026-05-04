@@ -15,7 +15,7 @@
  * @version		$Id: english.php 2154 2008-09-22 02:38:32Z phppp $
  */
 /*
- * Assocated with editor_registry.php
+ * Associated with editor_registry.php
  */
 // Name of the editor
 define("_XOOPS_EDITOR_TINYMCE","TinyMCE");
