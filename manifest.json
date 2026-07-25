@@ -56,6 +56,15 @@
       "updated": "2026-05-04",
       "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.7.0.zip",
       "manifest_url": "https://raw.githubusercontent.com/XoopsLanguages/italian/master/manifest.json"
+    },
+    "2.7.1": {
+      "lifecycle": "active",
+      "coverage": 99.7,
+      "provided": 3090,
+      "required": 3098,
+      "updated": "2026-07-25",
+      "download": "https://github.com/XoopsLanguages/italian/releases/download/latest/italian-core-2.7.1.zip",
+      "manifest_url": "https://raw.githubusercontent.com/XoopsLanguages/italian/master/manifest.json"
     }
   },
   "modules": {},
